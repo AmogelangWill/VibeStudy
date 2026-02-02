@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💜 Will You Be My Valentine? 💜</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating hearts animation -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Collage Images Outside Card -->
+    <div class="collage-container">
+        <img src="resources/her.jpg" class="collage-img collage-1" alt="You">
+        <img src="resources/valentine-s-day-cartoon-17733785.webp" class="collage-img collage-3" alt="Love">
+        <img src="resources/will-you-be-my-valentine-valentines-day-card-hand-written-brush-lettering-pink-heart-background-drawn-calligraphy-vector-133877051.webp" class="collage-img collage-4" alt="Valentine">
+    </div>
+    
+    <!-- Main content -->
+    <div class="container" id="mainCard">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="question">Hope my love, will you be my valentine? 💕</h1>
+            </div>
+            
+            <div class="card-body">
+                <div class="image-container">
+                    <img src="resources/Hero_img.png" alt="My Love" class="hero-image" id="heroImage">
+                </div>
+                
+                <div class="message">
+                    <p>You make my heart skip a beat every single day... 💗</p>
+                </div>
+            </div>
+            
+            <div class="card-footer">
+                <button class="btn btn-yes" id="yesBtn">Yes! 💖</button>
+                <button class="btn btn-no" id="noBtn">No</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success celebration screen -->
+    <div class="celebration-screen" id="celebrationScreen">
+        <div class="celebration-content">
+            <h1 class="celebration-title">Yay! 🎉💕✨</h1>
+            <p class="celebration-message">You've made me the happiest person alive!</p>
+            <div class="celebration-images">
+                <div class="double-images">
+                    <img src="resources/Us.jpg" alt="Us Together" class="celebration-img us-img">
+                    <img src="resources/valentine-s-day-cartoon-17733785.webp" alt="Love" class="celebration-img accent-img">
+                </div>
+            </div>
+            <div class="love-note">
+                <p>I promise to cherish every moment with you 💜</p>
+                <p>Forever and always, my Valentine 💗</p>
+            </div>
+            <div class="fireworks" id="fireworks"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
