@@ -36,3 +36,24 @@ DATABASE/**
 .idea/
 .vscode/
 
+# Kotlin/Gradle local metadata
+.kotlin/
+
+# Android outputs and signing materials
+*.apk
+*.aab
+*.ap_
+*.keystore
+*.jks
+
+# Environment and secret files
+.env
+.env.*
+
+# Misc local temp/editor backups
+*.tmp
+*.swp
+*.swo
+*.orig
+*.rej
+
