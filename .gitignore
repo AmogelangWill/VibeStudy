@@ -1,0 +1,38 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android/Gradle build outputs
+**/build/
+
+# Python virtual environments and caches
+venv/
+**/__pycache__/
+*.pyc
+
+# Logs and temporary runtime files
+*.log
+
+# Large archives / local bundles
+*.zip
+
+# Local dataset payloads (keep structure docs in repo, but not heavy data)
+DATABASE/**
+!DATABASE/.gitkeep
+
+# OS/editor artifacts
+.idea/
+.vscode/
+
