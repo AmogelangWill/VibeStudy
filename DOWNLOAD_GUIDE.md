@@ -112,7 +112,7 @@ Add remaining subjects and years (2015-2021).
 
 ##  SEMI-AUTOMATED HELPER SCRIPT:
 
-I'll create a Python script that:
+A Python helper script can be used to:
 1. Monitors your `DATABASE/` folder
 2. Auto-renames files to the correct format
 3. Generates a download checklist
@@ -157,7 +157,7 @@ Create a file `download_progress.txt`:
 2. **Create bookmarks** for each source's Grade 12 page
 3. **Download by subject** - Finish one subject completely before moving to next
 4. **Verify file sizes** - Most papers are 200KB-2MB. If a file is 10KB, it's probably broken
-5. **Use the renaming script** - I'll create one to auto-rename downloaded files
+5. **Use the renaming script** - Use one script to auto-rename downloaded files
 
 ---
 
@@ -180,5 +180,5 @@ If a source doesn't work or you can't find a paper:
 
 ---
 
-**LET'S START WITH PHASE 1 - Download 20 files and I'll show you how the processing works!**
+**Start with Phase 1: download 20 files, then verify processing with the helper workflow.**
 

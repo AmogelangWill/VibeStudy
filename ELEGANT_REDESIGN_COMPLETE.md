@@ -2,7 +2,7 @@
 
 ##  Summary of Changes
 
-I've successfully transformed your entire Vibe Study app with an **elegant, minimalistic iOS-style design** using your exact color palette!
+This update transforms the Vibe Study app with an **elegant, minimalistic iOS-style design** using the defined color palette.
 
 ---
 
@@ -26,7 +26,7 @@ New elegant About screen with:
 
 ### 3. **Applied Elegant iOS-Style Throughout** 
 
-#### Your Color Palette Used:
+#### Color Palette Used:
 - **App Background**: White (#FFFFFF)
 - **Card Background**: Very Light Gray (#F7F8FA)
 - **Primary Buttons**: Soft Orange (#FF9E4A)
@@ -237,14 +237,14 @@ Home Screen
 
 ##  Result
 
-Your app now has:
+The app now has:
 -  **Beautiful, elegant iOS-style design**
 -  **Soft pastel colors** throughout
 -  **Consistent design language**
 -  **Proper navigation** (Home & About work!)
 -  **Clean, minimalistic feel**
 -  **Professional appearance**
--  **Your exact color palette**
+-  **Defined color palette**
 -  **No harsh colors or shadows**
 -  **Rounded corners everywhere**
 -  **Readable typography**
@@ -255,7 +255,7 @@ Your app now has:
 
 ##  All Done!
 
-Just rebuild and enjoy your beautifully redesigned Vibe Study app!
+Rebuild to run the redesigned Vibe Study app.
 
 ```bash
 ./gradlew clean build
