@@ -54,7 +54,7 @@ Updated `app/build.gradle.kts`:
 
 ⏳ Question images (shows "Question pages: X, Y, Z" - waiting for PDF rendering)
 ⏳ Memo images (shows "Memo pages: X, Y, Z" - waiting for PDF rendering)  
-⏳ Ask AI button (placeholder for future AI integration)
+⏳ Ask Tutor button (placeholder for future guided-help integration)
 
 ## Next Phase (When Ready)
 

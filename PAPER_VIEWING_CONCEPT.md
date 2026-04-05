@@ -7,7 +7,7 @@
 2. Screen displays questions **one by one** in a scrollable list
 3. Each question shows:
    - Question screenshot (full-width)
-   - Two buttons below: **Ask AI** | **View Memo**
+    - Two buttons below: **Ask Tutor** | **View Memo**
 4. Tapping "View Memo" reveals the memo for that specific question
 5. Each question's memo toggles independently
 
@@ -16,7 +16,7 @@
 - ✅ **Screenshot-based** - Not text extraction, actual paper images
 - ✅ **Independent toggles** - Each question's memo works separately
 - ✅ **Clean spacing** - Each card is visually separated
-- ✅ **Equal-width buttons** - Ask AI and View Memo are balanced
+- ✅ **Equal-width buttons** - Ask Tutor and View Memo are balanced
 
 ## Technical Implementation (Concept)
 
@@ -26,7 +26,7 @@ data class Question(
     val id: String,
     val questionImageUrl: String,  // URL or path to question screenshot
     val memoImageUrl: String,      // URL or path to memo screenshot
-    val memoText: String?,         // Optional: extracted text for AI
+    val memoText: String?,         // Optional: extracted text for processing
     val marks: Int
 )
 ```
@@ -38,7 +38,7 @@ PaperViewScreen
     └── QuestionCard (repeated for each question)
         ├── Question Image (full-width)
         ├── Button Row
-        │   ├── Ask AI Button (50% width)
+        │   ├── Ask Tutor Button (50% width)
         │   └── View Memo Button (50% width)
         └── Memo Image (full-width, toggle-able)
 ```
@@ -61,22 +61,22 @@ PaperViewScreen
 - [ ] Bookmark specific questions
 - [ ] Track which questions you've viewed
 
-### Phase 3 (AI Integration):
-- [ ] Connect Ask AI to actual AI service
-- [ ] Pass memo context to AI
-- [ ] Display AI explanations in dialog/sheet
+### Phase 3 (Guided Help Integration):
+- [ ] Connect Ask Tutor to support service
+- [ ] Pass memo context to service
+- [ ] Display help explanations in dialog/sheet
 
 ### Phase 4 (Advanced):
 - [ ] Auto-split PDFs into question images server-side
 - [ ] OCR for extracting memo text
-- [ ] AI-powered question difficulty rating
+- [ ] Question difficulty rating support
 - [ ] Study analytics (which questions take longest)
 
 ## Differences from Other Apps
 
 Your app will stand out because:
 1. **Question-by-question** display vs. full PDF viewer
-2. **Integrated AI help** directly under each question
+2. **Integrated help** directly under each question
 3. **Quick memo access** without scrolling to end of paper
 4. **Combined ecosystem** (notes, videos, schedule, papers) in one app
 

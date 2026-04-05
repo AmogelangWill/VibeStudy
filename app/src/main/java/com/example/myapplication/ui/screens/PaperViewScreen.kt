@@ -204,12 +204,12 @@ private fun QuestionCard(
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Button(
-                    onClick = { /* TODO: Ask AI */ },
+                    onClick = { /* TODO: Ask Tutor */ },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = PrimaryButton),
                     shape = RoundedCornerShape(8.dp)
                 ) {
-                    Text("Ask AI", color = Color.White)
+                    Text("Ask Tutor", color = Color.White)
                 }
 
                 Button(

@@ -11,7 +11,7 @@
 - Reusable composable for displaying questions
 - Features:
   - Full-width question image display
-  - Two equal-width buttons: "Ask AI" and "View Memo"
+  - Two equal-width buttons: "Ask Tutor" and "View Memo"
   - Toggle functionality to show/hide memo
   - Clean card design with rounded corners and elevation
 - Located at: `app/src/main/java/com/example/myapplication/ui/components/QuestionCard.kt`
@@ -47,7 +47,7 @@
 4. **You'll see:**
    - A paper title: "Mathematics Paper 1 - 2023"
    - 3 scrollable question cards
-   - Each card has a question box, "Ask AI" and "View Memo" buttons
+  - Each card has a question box, "Ask Tutor" and "View Memo" buttons
    - Tap "View Memo" to toggle the memo display
    - Tap "Hide Memo" to collapse it again
 
@@ -61,7 +61,7 @@
 │  Sample question text...    │
 │                             │
 ├─────────────┬───────────────┤
-│  Ask AI     │  View Memo    │
+│  Ask Tutor  │  View Memo    │
 └─────────────┴───────────────┘
 │  [Memo Box - Red tint]      │  <- Shows when "View Memo" clicked
 │  MEMORANDUM - QUESTION 1    │
@@ -78,11 +78,11 @@
 ## Next Steps (When Real Data is Ready)
 
 1. **Replace placeholder boxes** with actual paper screenshots
-2. **Implement "Ask AI" functionality** - connect to your AI API
+2. **Implement "Ask Tutor" functionality** - connect to your support API
 3. **Add real data models** for papers, questions, and memos
 4. **Implement caching** for offline access
 5. **Add loading states** and error handling
-6. **Extract text from memos** for AI processing
+6. **Extract text from memos** for processing
 
 ## File Locations
 

@@ -144,11 +144,11 @@ app/src/main/java/com/example/myapplication/
 
 ### 2. **Library Content**
 - DBE Curriculum topic breakdown per subject
-- Notes section (handwritten/AI-generated)
+- Notes section (handwritten/curated)
 - Videos section (recommended educational videos)
 
-### 3. **AI Integration**
-- AI-assisted study recommendations
+### 3. **Guided Support Integration**
+- Assisted study recommendations
 - Smart revision planning
 - Question answering
 

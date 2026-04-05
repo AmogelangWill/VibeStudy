@@ -14,11 +14,11 @@
   - memo sections that do not align linearly with question pages
 - Introduce optional crop metadata workflow for mixed pages
 
-## 3) AI Assistance
+## 3) Guided Help
 
-- Replace `Ask AI` placeholder with provider-agnostic integration layer
+- Replace `Ask Tutor` placeholder with provider-agnostic integration layer
 - Add prompt/context guardrails to keep answers aligned to memo scope
-- Add offline fallback messaging when AI services are unavailable
+- Add offline fallback messaging when help services are unavailable
 
 ## 4) Library and Content Layer
 

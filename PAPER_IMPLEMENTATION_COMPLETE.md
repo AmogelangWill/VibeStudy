@@ -34,7 +34,7 @@ Modified `PaperListScreen.kt` to:
 ### 5. Existing Screen Already Set Up
 The `PaperViewScreen.kt` was already implemented with:
 - Question cards showing each question
-- "Ask AI" button (placeholder for future AI integration)
+- "Ask Tutor" button (placeholder for future guided-help integration)
 - "View Memo" toggle button to show/hide memo pages
 - Page number display for both questions and memos
 
@@ -49,7 +49,7 @@ The `PaperViewScreen.kt` was already implemented with:
 6. **NEW**: The app now loads the manifest and displays all questions
 7. For each question, you can:
    - See which pages contain the question
-   - Click "Ask AI" (placeholder for now)
+   - Click "Ask Tutor" (placeholder for now)
    - Click "View Memo" to see which memo pages answer that question
 
 ## Current Status
@@ -63,7 +63,7 @@ The `PaperViewScreen.kt` was already implemented with:
 ⏳ **PLACEHOLDERS** (As you requested - showing concept first):
 - Question images (currently shows "Question pages: X, Y, Z")
 - Memo images (currently shows "Memo pages: X, Y, Z")
-- Ask AI functionality
+- Ask Tutor functionality
 
 ## Next Steps (When You're Ready)
 
@@ -78,10 +78,10 @@ To make it fully functional with actual PDF page images, we would need to:
    - Extract specific pages from the memo PDF
    - Convert them to images and display them
 
-3. **Implement AI Integration**
-   - Connect to an AI API
-   - Pass the question image and memo to the AI
-   - Display AI responses
+3. **Implement Guided Help Integration**
+   - Connect to a support API
+   - Pass the question image and memo context to the service
+   - Display support responses
 
 ## Files Modified/Created
 

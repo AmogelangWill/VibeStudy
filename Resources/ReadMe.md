@@ -1,6 +1,6 @@
-DESCRIPTION: Create an Android app (Vibe Study) that allows south african students (grade 10, 11 and 12) to study using past exam papers, library of notes and even videos, create study time tables in the exact same app and AI integration in some features like when revising for a paper.
+DESCRIPTION: Create an Android app (Vibe Study) that allows south african students (grade 10, 11 and 12) to study using past exam papers, library of notes and even videos, create study time tables in the exact same app and optional guided support in some revision features.
 
-NB: FOR NOW FORGET ABOUT THE DESCRIPTION AND HOW WE ARE GOING TO INTEGRATE AI , JUST DO THIS FOR NOW!!!
+NB: FOR NOW FORGET ABOUT THE DESCRIPTION AND HOW WE ARE GOING TO INTEGRATE GUIDED SUPPORT, JUST DO THIS FOR NOW!!!
 So this is how it will look .
 - When u open the app 
 - What will appear are square boxes written
@@ -49,7 +49,7 @@ So this is how it will look .
 																								    -English FAL
 																								    -Life Orientation
 	-Under each subject will be each topic that subject has using the DBE Curriculum DISPLAY: LIST VIEW, RECTANGULAR BOXES - (LEAVE IT BLANK FOR NOW)	
-	-For now we dont have data and material but there is going to be handwritten notes , or AI Generated Notes, and recommended Videos on that particular topic meaning under each topic you will have Two boxes not in list view - Notes
+	-For now we dont have data and material but there is going to be handwritten notes, curated notes, and recommended videos on that particular topic meaning under each topic you will have two boxes not in list view - Notes
 	                                                                                                       																																								 - Videos	
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 USER INTERFACE /USER EXPERIENCE
