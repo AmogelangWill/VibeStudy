@@ -41,7 +41,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
   - Memo pages mapped (e.g., "Memo pages: 10, 11")
   - **"Ask Tutor"** button (placeholder for now)
   - **"View Memo"** button (toggles memo pages display)
-- All page mappings come from the manifests you helped create (based on your 30-minute manual mapping!)
+- All page mappings come from the current manifests (based on manual mapping work).
 
 ---
 
@@ -65,12 +65,12 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 
 ---
 
-##  Next Steps (When You're Ready)
+##  Next Steps
 
 ### Phase 1: PDF to Images (Automated)
 **Goal:** Replace "Question pages: 3, 4" placeholders with actual page images
 
-**What I'll build:**
+**Planned work:**
 - Script to convert PDFs → PNG images per page
 - Auto-save to `assets/papers/{subject}/{paper}/questions/page_01.png`
 - Update PaperViewScreen to display images instead of text placeholders
@@ -82,11 +82,11 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 ### Phase 2: OCR Auto-Splitting (No More Manual Mapping!)
 **Goal:** Never spend 30 minutes mapping pages again
 
-**What I'll build:**
+**Planned work:**
 - Script that reads PDF text with OCR
 - Detects "QUESTION 1" / "Q2" / "Question 3" headers automatically
-- Generates manifest JSON for you
-- You just review and confirm (takes 2 minutes instead of 30)
+- Generates manifest JSON
+- Quick review and confirmation (about 2 minutes instead of 30)
 
 **Handles:**
 - Multi-page questions (Q1 spans page 3-5)
@@ -100,7 +100,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 ### Phase 3: Cropping for Mixed Pages
 **Goal:** When page has Q1 and Q2, show them separately
 
-**What I'll add:**
+**Planned additions:**
 - Bounding box detection around each question
 - Crop coordinates in manifest
 - PaperViewScreen renders only the relevant crop
@@ -112,7 +112,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 ### Phase 4: Guided Help Integration (Ask Tutor Button)
 **Goal:** Make "Ask Tutor" functional
 
-**What I'll wire up:**
+**Planned integration:**
 - Extract memo text for the question
 - Connect to a support service or curated explanation backend
 - Prompt: "Using this memo as reference, help explain: [question text]"
@@ -168,10 +168,10 @@ Try in order:
 
 ---
 
-**You're ready to run the app and see your papers live! **
+**The app is ready to run with live paper viewing.**
 
-Let me know:
+Next selection:
 - If Run/Debug works now
 - What you see when you tap the Math/Phys Sci buttons
-- Which phase you want me to tackle next (I recommend Phase 1: PDF→Images)
+- Choose the next phase (recommended: Phase 1: PDF→Images)
 
