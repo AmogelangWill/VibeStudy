@@ -1,0 +1,70 @@
+{
+  "grade": "12",
+  "subject": "Mathematics",
+  "year": "2024",
+  "month": "November",
+  "paper": "P1",
+  "type": "question",
+  "questions": {
+    "Q1": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_3_part1.png"
+      ]
+    },
+    "Q2": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_3_part2.png"
+      ]
+    },
+    "Q3": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_4_part1.png"
+      ]
+    },
+    "Q4": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_4_part2.png"
+      ]
+    },
+    "Q5": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_5.png"
+      ]
+    },
+    "Q6": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_6.png"
+      ]
+    },
+    "Q7": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_7_part1.png"
+      ]
+    },
+    "Q8": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_7_part2.png"
+      ]
+    },
+    "Q9": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_8_part1.png"
+      ]
+    },
+    "Q10": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_8_part2.png"
+      ]
+    },
+    "Q11": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_9_part1.png"
+      ]
+    },
+    "Q12": {
+      "images": [
+        "Mathematics P1 Nov 2024 Eng_page_9_part2.png"
+      ]
+    }
+  }
+}

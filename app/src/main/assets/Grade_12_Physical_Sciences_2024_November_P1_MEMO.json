@@ -1,0 +1,71 @@
+{
+  "grade": "12",
+  "subject": "Physical_Sciences",
+  "year": "2024",
+  "month": "November",
+  "paper": "P1",
+  "type": "memo",
+  "questions": {
+    "Q1": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_2.png"
+      ]
+    },
+    "Q2": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_3.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_4.png"
+      ]
+    },
+    "Q3": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_5.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_6.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_7.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_8.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_9.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_10.png"
+      ]
+    },
+    "Q4": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_11.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_12.png"
+      ]
+    },
+    "Q5": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_13.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_14.png"
+      ]
+    },
+    "Q6": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_15.png"
+      ]
+    },
+    "Q7": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_16.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_17.png"
+      ]
+    },
+    "Q8": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_18.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_19.png"
+      ]
+    },
+    "Q9": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_20.png"
+      ]
+    },
+    "Q10": {
+      "images": [
+        "Physical Sciences P1 Nov 2024 MEMO_page_21.png",
+        "Physical Sciences P1 Nov 2024 MEMO_page_22.png"
+      ]
+    }
+  }
+}

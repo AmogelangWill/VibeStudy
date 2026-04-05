@@ -1,0 +1,76 @@
+{
+  "grade": "12",
+  "subject": "Mathematics",
+  "year": "2024",
+  "month": "November",
+  "paper": "P1",
+  "type": "memo",
+  "questions": {
+    "Q1": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_2.png",
+        "Mathematics P1 Nov 2024 MEMO_page_3.png"
+      ]
+    },
+    "Q2": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_4.png"
+      ]
+    },
+    "Q3": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_5.png",
+        "Mathematics P1 Nov 2024 MEMO_page_6.png"
+      ]
+    },
+    "Q4": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_7.png"
+      ]
+    },
+    "Q5": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_8.png"
+      ]
+    },
+    "Q6": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_9.png",
+        "Mathematics P1 Nov 2024 MEMO_page_10.png"
+      ]
+    },
+    "Q7": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_11.png",
+        "Mathematics P1 Nov 2024 MEMO_page_12.png",
+        "Mathematics P1 Nov 2024 MEMO_page_13.png"
+      ]
+    },
+    "Q8": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_14.png",
+        "Mathematics P1 Nov 2024 MEMO_page_15.png"
+      ]
+    },
+    "Q9": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_16_part1.png"
+      ]
+    },
+    "Q10": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_16_part2.png"
+      ]
+    },
+    "Q11": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_17_part1.png"
+      ]
+    },
+    "Q12": {
+      "images": [
+        "Mathematics P1 Nov 2024 MEMO_page_17_part2.png"
+      ]
+    }
+  }
+}
