@@ -1,104 +1,86 @@
-# Paper Demo - Visual Guide
+# Paper Demo — Visual Guide
 
-## How to Access the Demo
+## Accessing the Demo
 
-### Step 1: Open the App
-Launch VibeStudy on your device/emulator
+1. Launch VibeStudy on your device or emulator.
+2. Tap the hamburger menu icon (≡) in the top-left corner.
+3. Scroll down in the drawer and tap **"Paper Demo"** (light cyan background, subtitle: "Test paper viewing UI").
 
-### Step 2: Open Navigation Drawer
-Tap the **hamburger menu icon** (≡) in the top-left corner
+---
 
-### Step 3: Navigate to Paper Demo
-Scroll down in the drawer and tap the **"Paper Demo"** item
-- It has a light cyan/blue background
-- Subtitle: "Test paper viewing UI"
-- Located above the "About" section
-
-## What You'll See
-
-### Screen Layout:
+## Screen Layout
 
 ```
 ┌─────────────────────────────────────┐
-│  ☰  [LOGO]                          │  <- App Bar
+│  ☰  [LOGO]                          │
 ├─────────────────────────────────────┤
-│  Mathematics Paper 1 - 2023         │  <- Paper Title
+│  Mathematics Paper 1 - 2023         │
 │                                     │
-│  ┌───────────────────────────────┐ │
-│  │ QUESTION 1                    │ │
-│  │ This is a sample question 1   │ │
-│  │ from the past paper.          │ │
-│  │                               │ │
-│  │ Lorem ipsum dolor sit amet... │ │
-│  │                               │ │
-│  │ Solve for x: 2x + 5 = 15      │ │
-│  │                               │ │
-│  │ a) Show your working          │ │
-│  │ b) Verify your answer         │ │
-│  └───────────────────────────────┘ │
-│  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   View Memo     │ │
-│  └─────────────┴─────────────────┘ │
+│  ┌───────────────────────────────┐  │
+│  │ QUESTION 1                    │  │
+│  │ Sample question text...       │  │
+│  └───────────────────────────────┘  │
+│  ┌─────────────┬─────────────────┐  │
+│  │   Ask AI    │   View Memo     │  │
+│  └─────────────┴─────────────────┘  │
 │                                     │
-│  ┌───────────────────────────────┐ │
-│  │ QUESTION 2                    │ │
-│  │ ...                           │ │
-│  └───────────────────────────────┘ │
-│  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   View Memo     │ │
-│  └─────────────┴─────────────────┘ │
+│  ┌───────────────────────────────┐  │
+│  │ QUESTION 2                    │  │
+│  │ ...                           │  │
+│  └───────────────────────────────┘  │
+│  ┌─────────────┬─────────────────┐  │
+│  │   Ask AI    │   View Memo     │  │
+│  └─────────────┴─────────────────┘  │
 │                                     │
-│  ┌───────────────────────────────┐ │
-│  │ QUESTION 3                    │ │
-│  │ ...                           │ │
-│  └───────────────────────────────┘ │
-│  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   View Memo     │ │
-│  └─────────────┴─────────────────┘ │
+│  ┌───────────────────────────────┐  │
+│  │ QUESTION 3                    │  │
+│  │ ...                           │  │
+│  └───────────────────────────────┘  │
+│  ┌─────────────┬─────────────────┐  │
+│  │   Ask AI    │   View Memo     │  │
+│  └─────────────┴─────────────────┘  │
 └─────────────────────────────────────┘
 ```
 
-### When You Tap "View Memo":
+### After tapping "View Memo"
 
 ```
-┌─────────────────────────────────────┐
-│  ┌───────────────────────────────┐ │
-│  │ QUESTION 1                    │ │
-│  │ Sample question text...       │ │
-│  └───────────────────────────────┘ │
-│  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   Hide Memo     │ │  <- Button text changes
-│  └─────────────┴─────────────────┘ │
-│  ┌───────────────────────────────┐ │
-│  │ MEMORANDUM - QUESTION 1       │ │  <- Memo appears
-│  │                               │ │
-│  │ Solution:                     │ │
-│  │ 2x + 5 = 15                   │ │
-│  │ 2x = 15 - 5                   │ │
-│  │ 2x = 10                       │ │
-│  │ x = 5                         │ │
-│  │                               │ │
-│  │ Verification: 2(5)+5=10+5=15✓ │ │
-│  │                               │ │
-│  │ Marks: [5]                    │ │
-│  └───────────────────────────────┘ │
-└─────────────────────────────────────┘
+│  ┌───────────────────────────────┐  │
+│  │ QUESTION 1                    │  │
+│  │ Sample question text...       │  │
+│  └───────────────────────────────┘  │
+│  ┌─────────────┬─────────────────┐  │
+│  │   Ask AI    │   Hide Memo     │  │  <- button text changes
+│  └─────────────┴─────────────────┘  │
+│  ┌───────────────────────────────┐  │
+│  │ MEMORANDUM - QUESTION 1       │  │  <- memo appears
+│  │                               │  │
+│  │ Solution:                     │  │
+│  │ 2x + 5 = 15                   │  │
+│  │ x = 5                         │  │
+│  │ Marks: [5]                    │  │
+│  └───────────────────────────────┘  │
 ```
+
+---
 
 ## Color Coding
 
-- **Question boxes**: Light purple-blue tint with darker blue border
-- **Memo boxes**: Light beige/cream tint with reddish border
-- **Background**: Light gray (#F5F5F5)
-- **Cards**: White with subtle shadow
-- **Text**: Dark gray/blue for readability
+- Question boxes: Light purple-blue tint with darker blue border
+- Memo boxes: Light beige tint with reddish border
+- Background: Light gray (#F5F5F5)
+- Cards: White with subtle shadow
+
+---
 
 ## Interactive Features
 
-✅ **Scroll**: Swipe up/down to see all 3 questions
-✅ **Toggle Memo**: Tap "View Memo" to show, "Hide Memo" to hide
-✅ **Independent Cards**: Each question's memo toggles independently
-✅ **Ask AI Button**: Currently a placeholder (shows print in console)
+- Scroll up/down to see all 3 questions
+- Tap "View Memo" to show, "Hide Memo" to hide
+- Each question's memo toggles independently
+- Ask AI button logs to console (placeholder)
+
+---
 
 ## Testing Checklist
 
@@ -110,25 +92,22 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 - [ ] "View Memo" button toggles memo display
 - [ ] Button text changes to "Hide Memo" when memo is shown
 - [ ] Each question's memo works independently
-- [ ] Layout looks clean on your device
-
-## Current Limitations (By Design)
-
-🔹 Questions are placeholder boxes with text (not actual paper images)
-🔹 "Ask AI" button doesn't do anything yet
-🔹 Only 3 sample questions shown
-🔹 No actual PDF or image loading
-
-## Next Steps After Testing
-
-Once you verify this works:
-1. **Prepare real screenshots** of paper questions and memos
-2. **Decide on storage**: Local files vs. cloud URLs
-3. **Implement image loading** with Coil or similar
-4. **Add AI integration** for the "Ask AI" feature
-5. **Create a data model** for real papers with metadata
 
 ---
 
-This is a **functional prototype** to validate the UX flow!
+## Current Limitations
+
+- Questions are placeholder boxes with text, not actual paper images
+- "Ask AI" button is non-functional
+- Only 3 sample questions shown
+
+---
+
+## Next Steps
+
+1. Prepare real screenshots of paper questions and memos.
+2. Decide on storage: local assets or cloud URLs.
+3. Implement image loading with Coil.
+4. Add AI integration for the Ask AI button.
+5. Create a data model for real papers with metadata.
 

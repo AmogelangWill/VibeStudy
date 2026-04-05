@@ -1,74 +1,58 @@
-# Vibe Study - Android App Implementation
+# Vibe Study — Android App Implementation
 
 ## Overview
-Vibe Study is an Android app designed for South African students (Grades 10-12) to study using past exam papers, access a library of notes, and manage their study schedules.
 
-## Features Implemented ✅
+Vibe Study is an Android app for South African students (Grades 10–12) covering past exam papers, a library of notes, and study schedule management.
 
-### 1. **Home Screen**
-- 4 square buttons displayed in a grid layout:
-  - Grade 10
-  - Grade 11
-  - Grade 12
-  - MyStudySchedule
-  - Library
+## Features Implemented
 
-### 2. **Grade Navigation (Grades 10, 11, 12)**
-- Each grade shows a list of subjects in **alphabetical order**:
-  - Accounting
-  - Business
-  - Economics
-  - English FAL
-  - Geography
-  - History
-  - Life Orientation
-  - Life Sciences
-  - Mathematics
-  - Mathematics Literacy
-  - Physical Sciences
+### 1. Home Screen
+- Grid of square buttons: Grade 10, Grade 11, Grade 12, MyStudySchedule, Library
 
-### 3. **Subject Navigation**
-- **Years**: 2015-2025 (displayed in reverse chronological order)
-- **Months**: March, June, September, November
-- **Papers**: 
-  - Paper 1 and Paper 2 for most subjects
-  - Paper 1, 2, and 3 for English FAL
-  - Papers are currently empty (ready for future content)
+### 2. Grade Navigation (Grades 10, 11, 12)
+Subjects per grade (alphabetical order):
+- Accounting
+- Business
+- Economics
+- English FAL
+- Geography
+- History
+- Life Orientation
+- Life Sciences
+- Mathematics
+- Mathematics Literacy
+- Physical Sciences
 
-### 4. **MyStudySchedule Feature**
-- Empty state shows: "No tasks or reminders available"
-- Floating Action Button (+) to add new tasks
-- Task creation with fields:
-  - Subject
-  - Type of task (Study or Home work)
-  - Date (with date picker)
-  - Time (with time picker)
-  - Duration (in minutes)
-  - Topic
-- **Conflict Detection**: App checks for overlapping tasks and notifies user
-- Task display shows all details in a card format
-- Delete functionality for each task
+### 3. Subject Navigation
+- **Years:** 2015–2025 (reverse chronological)
+- **Months:** March, June, September, November
+- **Papers:** Paper 1 and Paper 2 for most subjects; Paper 1, 2, and 3 for English FAL
 
-### 5. **Library Feature**
-- List of all subjects (alphabetically ordered)
-- Each subject leads to topics page
-- Topics are currently blank (ready for DBE Curriculum implementation)
-- Placeholder for future Notes and Videos sections
+### 4. MyStudySchedule
+- Empty state: "No tasks or reminders available"
+- Floating Action Button (+) to add tasks
+- Task fields: Subject, Type (Study / Homework), Date, Time, Duration (minutes), Topic
+- Conflict detection: warns if tasks overlap
+- Task cards with delete functionality
 
-### 6. **UI/UX Implementation**
+### 5. Library
+- Alphabetical subject list
+- Each subject leads to a topics page (blank — ready for DBE Curriculum content)
+- Placeholder structure for Notes and Videos
 
-#### App Bar (Header)
-- Logo/App name in the center: "VIBE STUDY"
+### 6. UI/UX
+
+#### App Bar
+- Logo/app name centered: "VIBE STUDY"
 - Hamburger menu icon on the left
-- Clean, professional design
 
 #### Hamburger Menu
-- Displays all three grades
-- Quick navigation to any grade's subjects
+- Shows Grade 10, 11, 12 for quick navigation
 
-#### Color Palette (Fully Implemented)
-| Component | Color | Hex Code |
-|-----------|-------|----------|
+#### Color Palette
+
+| Component | Color | Hex |
+|-----------|-------|-----|
 | App Background | White | #FFFFFF |
 | Primary Buttons | Soft Orange | #FF9E4A |
 | Secondary Buttons | Sky Blue | #4FA3F7 |
@@ -76,28 +60,26 @@ Vibe Study is an Android app designed for South African students (Grades 10-12) 
 | Disabled/Placeholder | Light Gray | #A0A4A8 |
 | Card Background | Very Light Gray | #F7F8FA |
 
-#### Design Elements
+#### Design
 - Rectangular buttons for list views
 - Square buttons for main navigation
-- Card-based layouts
-- Rounded corners (12-16dp)
-- Proper spacing and elevation
-- Material Design 3 components
+- Card-based layouts, rounded corners (12–16dp)
+- Material Design 3
 
 ## Project Structure
 
 ```
 app/src/main/java/com/example/myapplication/
 ├── data/
-│   ├── Subject.kt (Subject enum, Grade enum, ExamMonth enum)
-│   └── Task.kt (Task data class and TaskType enum)
+│   ├── Subject.kt
+│   └── Task.kt
 ├── navigation/
-│   ├── Screen.kt (Navigation routes)
-│   └── VibeStudyNavigation.kt (Navigation setup)
+│   ├── Screen.kt
+│   └── VibeStudyNavigation.kt
 ├── ui/
 │   ├── components/
-│   │   ├── AppBar.kt (Header and Drawer)
-│   │   └── Buttons.kt (Reusable button components)
+│   │   ├── AppBar.kt
+│   │   └── Buttons.kt
 │   ├── screens/
 │   │   ├── HomeScreen.kt
 │   │   ├── SubjectListScreen.kt
@@ -108,82 +90,55 @@ app/src/main/java/com/example/myapplication/
 │   │   ├── LibrarySubjectsScreen.kt
 │   │   └── LibraryTopicsScreen.kt
 │   └── theme/
-│       ├── Color.kt (Custom color palette)
-│       ├── Theme.kt (App theme)
-│       └── Type.kt (Typography)
+│       ├── Color.kt
+│       ├── Theme.kt
+│       └── Type.kt
 ├── viewmodel/
-│   └── TaskViewModel.kt (Task management logic)
+│   └── TaskViewModel.kt
 └── MainActivity.kt
-
 ```
 
-## Technologies Used
-- **Kotlin** for Android development
-- **Jetpack Compose** for modern UI
-- **Material Design 3** for UI components
-- **Navigation Compose** for app navigation
-- **ViewModel** for state management
-- **Coroutines & Flow** for reactive data
+## Technologies
+
+- Kotlin
+- Jetpack Compose
+- Material Design 3
+- Navigation Compose
+- ViewModel + Coroutines/Flow
 
 ## Dependencies Added
-- `androidx.navigation:navigation-compose` - Navigation
-- `androidx.compose.material:material-icons-extended` - Icons
-- `androidx.lifecycle:lifecycle-viewmodel-compose` - ViewModel
-- `androidx.work:work-runtime-ktx` - Background tasks (for future notifications)
 
-## Permissions Added
-- `POST_NOTIFICATIONS` - For task reminders
-- `SCHEDULE_EXACT_ALARM` - For scheduled task notifications
+- `androidx.navigation:navigation-compose`
+- `androidx.compose.material:material-icons-extended`
+- `androidx.lifecycle:lifecycle-viewmodel-compose`
+- `androidx.work:work-runtime-ktx`
 
-## Features Ready for Future Implementation
+## Permissions
 
-### 1. **Exam Papers Content**
-- PDF viewer integration
-- Download functionality
-- Offline access
+- `POST_NOTIFICATIONS`
+- `SCHEDULE_EXACT_ALARM`
 
-### 2. **Library Content**
+## Planned Features (not yet implemented)
+
+- PDF viewer and offline paper access
 - DBE Curriculum topic breakdown per subject
-- Notes section (handwritten/AI-generated)
-- Videos section (recommended educational videos)
-
-### 3. **AI Integration**
+- Notes and video content per topic
 - AI-assisted study recommendations
-- Smart revision planning
-- Question answering
-
-### 4. **Task Notifications**
-- Actual notification delivery when task time arrives
-- Background service for notification scheduling
-- Notification sound and vibration
-
-### 5. **Additional Features**
-- User authentication
-- Cloud sync for tasks and progress
-- Study statistics and analytics
-- Subject-specific icons from Resources folder
+- Actual notification delivery
+- User authentication and cloud sync
 
 ## How to Build and Run
 
 1. Open the project in Android Studio
 2. Sync Gradle dependencies
 3. Connect an Android device or start an emulator (API 24+)
-4. Click "Run" or press Shift+F10
+4. Click Run (Shift+F10)
 
 ## Notes
 
-- All subjects are displayed in alphabetical order as requested
-- English FAL has 3 papers, other subjects have 2 papers
-- Task conflict detection prevents scheduling overlapping tasks
-- App uses a forced light theme with the custom Vibe Study color palette
-- Papers are currently empty placeholders
-- Library topics are placeholders for DBE Curriculum content
-
-## App Name
-**Vibe Study** - Displayed in the Android launcher and app header
-
----
-
-**Implementation Status**: ✅ Complete (Phase 1)
-All core features from the ReadMe.md have been implemented as specified.
+- Subjects are displayed in alphabetical order
+- English FAL has 3 papers; all other subjects have 2
+- Task conflict detection prevents overlapping tasks
+- App uses a forced light theme with the custom color palette
+- Papers and library topics are currently placeholders
 

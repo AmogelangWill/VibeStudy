@@ -1,47 +1,33 @@
-# HOME SCREEN FIXED - Papers Removed
+# Home Screen Fix — Papers Removed
 
 ## Issue
-Papers "Math P1 Nov 2024" and "Phys Sci P1 Nov 2024" were showing on the home screen.
 
-## Solution
-✅ **REMOVED** - Deleted the paper buttons from HomeScreen.kt
+Paper buttons "Math P1 Nov 2024" and "Phys Sci P1 Nov 2024" were appearing on the home screen.
 
-## Home Screen Now Shows ONLY:
+## Fix
 
-### Row 1:
-- **Grade 10** 
-- **Grade 11**
+Removed the paper buttons from `HomeScreen.kt`.
 
-### Row 2:
-- **Grade 12**
-- **My Study Schedule**
+## Home Screen Layout
 
-### Row 3:
-- **Library**
-- (Empty space)
+**Row 1:** Grade 10, Grade 11
 
-## Where to Find Papers Now
+**Row 2:** Grade 12, My Study Schedule
 
-Papers are ONLY accessible through proper navigation:
-```
-Menu → Grade 12 → Mathematics → 2024 → November → Paper 1
-Menu → Grade 12 → Physical Sciences → 2024 → November → Paper 1
-```
+**Row 3:** Library
 
-OR
+## Accessing Papers
+
+Papers are only accessible through the standard navigation flow:
 
 ```
 Home → Grade 12 → Mathematics → 2024 → November → Paper 1
 Home → Grade 12 → Physical Sciences → 2024 → November → Paper 1
 ```
 
+Or via the hamburger menu → Grade 12 → same path.
+
 ## Build Status
-✅ **BUILD SUCCESSFUL**
-✅ **No errors**
-✅ **Ready to run**
 
----
-
-**HOME SCREEN IS NOW CLEAN!**
-Only Grades, Study Schedule, and Library are visible.
+Build successful, no errors.
 

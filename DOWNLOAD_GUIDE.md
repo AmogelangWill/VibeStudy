@@ -1,14 +1,12 @@
-# 📥 PAST PAPERS DOWNLOAD GUIDE
+# Past Papers Download Guide
 
-## 🎯 TARGET: 1,760 GRADE 12 PAPERS
+## Target: 1,760 Grade 12 Papers
 
-**Calculation:**
-- 1 Grade (12) × 11 subjects × 10 years (2015-2024) × 4 exam periods × 2 papers × 2 (QP+Memo)
-- = **1,760 papers**
+**Calculation:** 1 Grade × 11 subjects × 10 years (2015–2024) × 4 exam periods × 2 papers × 2 (QP + Memo) = **1,760 papers**
 
 ---
 
-## 📋 SUBJECTS TO DOWNLOAD:
+## Subjects
 
 1. Mathematics
 2. Physical Sciences
@@ -24,41 +22,33 @@
 
 ---
 
-## 🌐 DOWNLOAD SOURCES (FREE):
+## Download Sources (free)
 
-### 1. **education.gov.za** (OFFICIAL DBE - START HERE!)
-- URL: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
-- **Best for:** Grade 12, November papers (main exams)
-- **Coverage:** Usually has 2020-2024, all subjects
-- **Quality:** Official, 100% accurate
+### 1. education.gov.za (official DBE — start here)
+URL: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
+Best for Grade 12 November papers. Usually covers 2020–2024, all subjects. Official source.
 
-### 2. **testpapers.co.za** (LARGEST COLLECTION)
-- URL: https://www.testpapers.co.za/
-- Navigate: Grade 12 → Subject → Year
-- **Best for:** All years (2015-2024), all exam periods
-- **Coverage:** Very comprehensive
-- **Note:** May require clicking through categories
+### 2. testpapers.co.za (largest collection)
+URL: https://www.testpapers.co.za/
+Navigate: Grade 12 → Subject → Year. Comprehensive coverage of all years and exam periods.
 
-### 3. **saexampapers.co.za**
-- URL: https://www.saexampapers.co.za/
-- **Best for:** Mid-year exams (May/June, Sept)
-- **Coverage:** Good, organized by subject
+### 3. saexampapers.co.za
+URL: https://www.saexampapers.co.za/
+Good for mid-year exams (May/June, September).
 
-### 4. **stanmorephysics.com**
-- URL: https://stanmorephysics.com/
-- **Best for:** Sciences (Physical Sciences, Life Sciences, Maths)
-- **Coverage:** Excellent for STEM subjects
+### 4. stanmorephysics.com
+URL: https://stanmorephysics.com/
+Excellent for sciences (Physical Sciences, Life Sciences, Mathematics).
 
-### 5. **gauteng.gov.za**
-- URL: https://education.gauteng.gov.za/pages/Exam-Papers.aspx
-- **Best for:** Gauteng provincial papers
-- **Backup source**
+### 5. gauteng.gov.za
+URL: https://education.gauteng.gov.za/pages/Exam-Papers.aspx
+Gauteng provincial papers. Use as a backup source.
 
 ---
 
-## 📁 FOLDER STRUCTURE (USE THIS!):
+## Folder Structure
 
-Create this structure in `DATABASE/` folder:
+Save all files to the `DATABASE/` folder using this naming convention:
 
 ```
 DATABASE/
@@ -68,117 +58,70 @@ DATABASE/
 ├── Grade_12_Mathematics_2024_November_P2_MEMO.pdf
 ├── Grade_12_Physical_Sciences_2024_November_P1.pdf
 ├── Grade_12_Physical_Sciences_2024_November_P1_MEMO.pdf
-└── ... (continue for all)
+└── ...
 ```
 
-**Naming Convention:**
+**Naming convention:**
 ```
 Grade_{GRADE}_{SUBJECT}_{YEAR}_{PERIOD}_{PAPER}.pdf
 Grade_{GRADE}_{SUBJECT}_{YEAR}_{PERIOD}_{PAPER}_MEMO.pdf
 ```
 
-**Examples:**
+Examples:
 - `Grade_12_Mathematics_2024_November_P1.pdf`
 - `Grade_12_Physical_Sciences_2023_June_P2_MEMO.pdf`
 - `Grade_12_Life_Sciences_2022_February_March_P1.pdf`
 
 ---
 
-## ⚡ QUICK START STRATEGY (3-PHASE APPROACH):
+## 3-Phase Download Strategy
 
-### **PHASE 1: Core Papers (PRIORITY - DO THIS FIRST!)**
-**Target:** 80 papers (2-3 hours work)
+### Phase 1: Core papers (start here)
+**Target: ~20 files**
 
-Download for **2024 ONLY**, **November ONLY**:
+Download for 2024 November only:
 - Mathematics (P1, P2, Memos) = 4 files
 - Physical Sciences (P1, P2, Memos) = 4 files
 - Life Sciences (P1, P2, Memos) = 4 files
 - English (P1, P2, P3, Memos) = 6 files
-- Accounting (P1, Memos) = 2 files
+- Accounting (P1, Memo) = 2 files
 
-**Total:** ~20 files to get started!
+### Phase 2: Expand years
+**Target: ~400 files**
 
-### **PHASE 2: Expand Years (NEXT)**
-**Target:** 400 papers (1-2 days work)
+Add 2022–2023 for the same 5 subjects.
 
-Add **2022-2023** for the same 5 subjects above.
+### Phase 3: Complete dataset
+**Target: 1,760 files**
 
-### **PHASE 3: Complete Dataset**
-**Target:** All 1,760 papers
-
-Add remaining subjects and years (2015-2021).
+Add remaining subjects and years (2015–2021).
 
 ---
 
-## 🤖 SEMI-AUTOMATED HELPER SCRIPT:
+## Time Estimates
 
-I'll create a Python script that:
-1. Monitors your `DATABASE/` folder
-2. Auto-renames files to the correct format
-3. Generates a download checklist
-4. Tracks what's missing
+- Phase 1 (core 2024): 2–3 hours
+- Phase 2 (2022–2023): 1–2 days spread over a week
+- Phase 3 (complete): 1–2 weeks at 30–60 minutes per day
 
 ---
 
-## 📊 PROGRESS TRACKER:
+## Tips
 
-Create a file `download_progress.txt`:
-
-```
-=== PHASE 1: Core 2024 November Papers ===
-[ ] Mathematics 2024 Nov P1
-[ ] Mathematics 2024 Nov P1 MEMO
-[ ] Mathematics 2024 Nov P2
-[ ] Mathematics 2024 Nov P2 MEMO
-...
-
-=== PHASE 2: 2022-2023 ===
-...
-
-=== PHASE 3: Complete (2015-2021) ===
-...
-```
+- Use the browser's download manager to download multiple files at once.
+- Download by subject — finish one subject before moving to the next.
+- Verify file sizes: most papers are 200 KB–2 MB. A 10 KB file is likely broken.
+- The organize script auto-renames files, so exact naming on download is not required.
 
 ---
 
-## ⏱️ TIME ESTIMATE:
+## Getting Started
 
-- **Phase 1 (Core 2024):** 2-3 hours
-- **Phase 2 (2022-2023):** 1-2 days (spread over a week)
-- **Phase 3 (Complete):** 1-2 weeks (at your own pace)
+1. Go to https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
+2. Download **Mathematics 2024 November P1 + Memo**.
+3. Save to the `DATABASE/` folder.
+4. Run `python3 scripts/organize_papers.py rename` to standardize the filename.
+5. Continue with the remaining Phase 1 papers.
 
-**Total:** 2-3 weeks of casual downloading (30 min to 1 hour per day)
-
----
-
-## 💡 PRO TIPS:
-
-1. **Use browser's download manager** - Download multiple files at once
-2. **Create bookmarks** for each source's Grade 12 page
-3. **Download by subject** - Finish one subject completely before moving to next
-4. **Verify file sizes** - Most papers are 200KB-2MB. If a file is 10KB, it's probably broken
-5. **Use the renaming script** - I'll create one to auto-rename downloaded files
-
----
-
-## 🚀 START NOW:
-
-1. Go to: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
-2. Download **Mathematics 2024 November P1 + MEMO**
-3. Save to `DATABASE/` folder with correct naming
-4. Run the helper script to verify
-5. Continue!
-
----
-
-## ❓ NEED HELP?
-
-If a source doesn't work or you can't find a paper:
-- Try the next source in the list
-- Some years/subjects might not be available
-- Document what's missing in `missing_papers.txt`
-
----
-
-**LET'S START WITH PHASE 1 - Download 20 files and I'll show you how the processing works!**
+If a source is unavailable, try the next one in the list. Document any papers that cannot be found for future reference.
 

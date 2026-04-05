@@ -1,116 +1,85 @@
 # Paper Viewing Implementation Summary
 
-## What Was Done
+## Changes
 
-### 1. Created Manifest JSON Files
-Created two manifest files for the papers you provided:
+### 1. Manifest JSON files created
 - `Grade_12_Mathematics_2024_November_P1.json`
 - `Grade_12_Physical_Sciences_2024_November_P1.json`
 
-Each manifest contains:
-- Paper metadata (grade, subject, year, exam, paper number)
-- PDF filenames for question paper and memo
-- List of questions with their corresponding page numbers
-- Metadata about cover pages, rules pages, and info pages
+Each manifest contains paper metadata (grade, subject, year, exam period, paper number), PDF filenames for the question paper and memo, questions with corresponding page numbers, and metadata for cover/rules/info pages.
 
-### 2. Copied PDF Files to Assets
-Copied all 4 PDF files from the DATABASE folder to the app's assets folder:
-- `Grade_12_Mathematics_2024_November_P1.pdf` (Question Paper)
-- `Grade_12_Mathematics_2024_November_P1_MEMO.pdf` (Memo)
-- `Grade_12_Physical_Sciences_2024_November_P1.pdf` (Question Paper)
-- `Grade_12_Physical_Sciences_2024_November_P1_MEMO.pdf` (Memo)
+### 2. PDF files copied to assets
+- `Grade_12_Mathematics_2024_November_P1.pdf`
+- `Grade_12_Mathematics_2024_November_P1_MEMO.pdf`
+- `Grade_12_Physical_Sciences_2024_November_P1.pdf`
+- `Grade_12_Physical_Sciences_2024_November_P1_MEMO.pdf`
 
-### 3. Updated Data Models
-Modified `PaperModels.kt` to include PDF filenames in the manifest structure:
-- Added `questionPdf` field
-- Added `memoPdf` field
+### 3. Data models updated
+`PaperModels.kt` — added `questionPdf` and `memoPdf` fields to the manifest structure.
 
-### 4. Updated Navigation
-Modified `PaperListScreen.kt` to:
-- Build the correct manifest filename based on grade, subject, year, month, and paper number
-- Navigate to `PaperViewScreen` when a paper is clicked
-- The filename format is: `Grade_{gradeNum}_{Subject}_{year}_{Month}_P{paperNum}.json`
+### 4. Navigation updated
+`PaperListScreen.kt` — builds the correct manifest filename from grade, subject, year, month, and paper number, then navigates to PaperViewScreen when a paper is tapped.
 
-### 5. Existing Screen Already Set Up
-The `PaperViewScreen.kt` was already implemented with:
-- Question cards showing each question
-- "Ask AI" button (placeholder for future AI integration)
-- "View Memo" toggle button to show/hide memo pages
-- Page number display for both questions and memos
+Filename format: `Grade_{gradeNum}_{Subject}_{year}_{Month}_P{paperNum}.json`
 
-## How It Works Now
+### 5. PaperViewScreen
+Already implemented with question cards, Ask AI button (placeholder), View Memo toggle, and page number display.
 
-### User Flow:
-1. Click hamburger menu → Select Grade 12
-2. Select a subject (Mathematics or Physical Sciences)
-3. Select year (2024)
-4. Select exam period (November)
-5. Click "Paper 1"
-6. **NEW**: The app now loads the manifest and displays all questions
-7. For each question, you can:
-   - See which pages contain the question
-   - Click "Ask AI" (placeholder for now)
-   - Click "View Memo" to see which memo pages answer that question
+---
 
-## Current Status
+## Navigation Flow
 
-✅ **WORKING**:
+1. Open hamburger menu → Select Grade 12
+2. Select Mathematics or Physical Sciences
+3. Select 2024 → November → Paper 1
+4. The app loads the manifest and displays all questions
+5. Each question shows page numbers, an Ask AI button, and a View Memo toggle
+
+---
+
+## Working Features
+
 - Navigation from Paper List to Paper View
-- Manifest loading
+- Manifest loading from JSON
 - Question display with page numbers
-- Memo toggle functionality
+- Memo toggle
 
-⏳ **PLACEHOLDERS** (As you requested - showing concept first):
-- Question images (currently shows "Question pages: X, Y, Z")
-- Memo images (currently shows "Memo pages: X, Y, Z")
+## Pending Features
+
+- Question images (page numbers shown as placeholder)
+- Memo images (page numbers shown as placeholder)
 - Ask AI functionality
 
-## Next Steps (When You're Ready)
+---
 
-To make it fully functional with actual PDF page images, we would need to:
+## Next Steps
 
-1. **Add PDF Rendering Library**
-   - Use a library like `android-pdf-viewer` or `PdfRenderer`
-   - This will allow us to convert PDF pages to images
+### Add PDF rendering
+Use `android-pdf-viewer` or Android's built-in `PdfRenderer` to convert PDF pages to images and display them instead of page numbers.
 
-2. **Crop PDF Pages**
-   - Extract specific pages from the question PDF
-   - Extract specific pages from the memo PDF
-   - Convert them to images and display them
+### AI integration
+Connect to an AI API, pass the question and memo as context, and display the response in a bottom sheet.
 
-3. **Implement AI Integration**
-   - Connect to an AI API
-   - Pass the question image and memo to the AI
-   - Display AI responses
+---
 
-## Files Modified/Created
+## Files Modified
 
-### Created:
-- `/app/src/main/assets/Grade_12_Mathematics_2024_November_P1.json`
-- `/app/src/main/assets/Grade_12_Physical_Sciences_2024_November_P1.json`
-- `/app/src/main/assets/Grade_12_Mathematics_2024_November_P1.pdf`
-- `/app/src/main/assets/Grade_12_Mathematics_2024_November_P1_MEMO.pdf`
-- `/app/src/main/assets/Grade_12_Physical_Sciences_2024_November_P1.pdf`
-- `/app/src/main/assets/Grade_12_Physical_Sciences_2024_November_P1_MEMO.pdf`
+### Created
+- `app/src/main/assets/Grade_12_Mathematics_2024_November_P1.json`
+- `app/src/main/assets/Grade_12_Physical_Sciences_2024_November_P1.json`
+- 4 PDF files in `app/src/main/assets/`
 
-### Modified:
-- `/app/src/main/java/com/example/myapplication/data/PaperModels.kt`
-- `/app/src/main/java/com/example/myapplication/ui/screens/PaperListScreen.kt`
+### Modified
+- `app/src/main/java/com/example/myapplication/data/PaperModels.kt`
+- `app/src/main/java/com/example/myapplication/ui/screens/PaperListScreen.kt`
 
-## Testing Instructions
+---
 
-1. Build and run the app
-2. Navigate: Menu → Grade 12 → Mathematics → 2024 → November → Paper 1
-3. You should see 12 question cards (Q1 through Q12)
-4. Each card shows the question page numbers and memo page numbers
-5. Click "View Memo" to toggle memo visibility
-6. Repeat for Physical Sciences (should show 10 questions)
+## Build
 
-## Build Status
+```bash
+./gradlew assembleDebug
+```
 
-✅ Build successful
-✅ No compilation errors
-✅ All assets copied
-✅ Navigation configured
-✅ Ready to test in the emulator/device
+Build is successful with no compilation errors.
 

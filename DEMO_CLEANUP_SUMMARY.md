@@ -1,76 +1,59 @@
-# Demo Cleanup - November 10, 2025
+# Demo Cleanup — November 10, 2025
 
-## What Was Removed
+## Changes
 
-### Navigation Changes (Reverted):
-- ✅ Removed `PaperDemo` route from `Screen.kt`
-- ✅ Removed `PaperDemoScreen` composable from `VibeStudyNavigation.kt`
-- ✅ Removed "Paper Demo" menu item from drawer in `AppBar.kt`
+### Navigation (reverted)
+- Removed `PaperDemo` route from `Screen.kt`
+- Removed `PaperDemoScreen` composable from `VibeStudyNavigation.kt`
+- Removed "Paper Demo" menu item from drawer in `AppBar.kt`
 
-### Files to Manually Delete:
-The following files can be safely deleted when you're ready:
+### Files to delete manually
 
-**Documentation Files:**
-- `/home/kali/Desktop/VibeStudy_Project/PAPER_DEMO_IMPLEMENTATION.md`
-- `/home/kali/Desktop/VibeStudy_Project/PAPER_DEMO_VISUAL_GUIDE.md`
-- `/home/kali/Desktop/VibeStudy_Project/generate_placeholders.py`
+The following files can be safely deleted:
 
-**Demo Screen & Components:**
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/java/com/example/myapplication/ui/screens/PaperDemoScreen.kt`
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/java/com/example/myapplication/ui/components/QuestionCard.kt`
+**Documentation:**
+- `PAPER_DEMO_IMPLEMENTATION.md`
+- `PAPER_DEMO_VISUAL_GUIDE.md`
+- `generate_placeholders.py`
 
-**Data Model:**
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/java/com/example/myapplication/model/Question.kt`
+**Demo screen and components:**
+- `app/src/main/java/com/example/myapplication/ui/screens/PaperDemoScreen.kt`
+- `app/src/main/java/com/example/myapplication/ui/components/QuestionCard.kt`
 
-**Placeholder Drawables:**
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/res/drawable/demo_q1.xml`
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/res/drawable/demo_q2.xml`
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/res/drawable/demo_q3.xml`
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/res/drawable/demo_memo1.xml`
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/res/drawable/demo_memo2.xml`
-- `/home/kali/Desktop/VibeStudy_Project/app/src/main/res/drawable/demo_memo3.xml`
+**Data model:**
+- `app/src/main/java/com/example/myapplication/model/Question.kt`
 
-## What Was Learned / Concept Validated
-
-✅ **UI Flow Concept**: Question-by-question display with toggle-able memos
-✅ **Layout Structure**: Full-width cards with equal-width buttons
-✅ **Toggle Behavior**: Each question's memo works independently
-✅ **Composable Architecture**: Clean, reusable components
-
-## Next Steps When Ready to Implement
-
-1. **Create real Question data model** with fields for:
-   - Question ID
-   - Paper metadata (subject, year, month, paper number)
-   - Image URL or file path for question screenshot
-   - Image URL or file path for memo screenshot
-   - Memo text (for AI processing)
-   - Marks allocated
-
-2. **Set up image storage**:
-   - Cloud storage (Firebase Storage, AWS S3, etc.)
-   - Or local assets with proper caching
-
-3. **Implement actual PaperViewScreen** (not demo):
-   - Load questions from database/API
-   - Use Coil for efficient image loading
-   - Implement offline caching
-   - Add loading states and error handling
-
-4. **AI Integration**:
-   - Connect to AI API
-   - Pass memo text as context
-   - Display AI responses in a dialog or bottom sheet
-
-## Status
-
-✅ **App is clean** - All demo integrations removed
-✅ **No build errors** - Only standard warnings about unused legacy routes
-✅ **Concept validated** - You approved the UI/UX flow
-✅ **Ready for real implementation** when you have actual paper data
+**Placeholder drawables:**
+- `app/src/main/res/drawable/demo_q1.xml`
+- `app/src/main/res/drawable/demo_q2.xml`
+- `app/src/main/res/drawable/demo_q3.xml`
+- `app/src/main/res/drawable/demo_memo1.xml`
+- `app/src/main/res/drawable/demo_memo2.xml`
+- `app/src/main/res/drawable/demo_memo3.xml`
 
 ---
 
-The demo files remain on disk for reference but are completely disconnected from the app.
-Delete them whenever you're ready, or keep them as reference for the real implementation.
+## Concepts Validated
+
+- UI flow: question-by-question display with toggle-able memos
+- Layout structure: full-width cards with equal-width buttons
+- Toggle behavior: each question's memo works independently
+- Composable architecture: clean, reusable components
+
+---
+
+## Next Steps
+
+1. Create a real Question data model with fields for question ID, paper metadata, image path, memo path, memo text, and marks allocated.
+2. Set up image storage (cloud or local assets with caching).
+3. Implement the production PaperViewScreen with real data, Coil image loading, offline caching, and loading/error states.
+4. Wire up AI integration for the Ask AI button.
+
+---
+
+## Status
+
+App is clean, all demo integrations are removed, and there are no build errors. The concept is validated and ready for real implementation when actual paper data is available.
+
+The demo files remain on disk for reference but are fully disconnected from the app.
 

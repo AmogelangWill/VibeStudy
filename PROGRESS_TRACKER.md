@@ -1,16 +1,16 @@
-# 📊 DOWNLOAD PROGRESS TRACKER
+# Download Progress Tracker
 
-## ✅ PHASE 1: CORE 2024 NOVEMBER PAPERS
+## Phase 1: Core 2024 November Papers
 
 ### Mathematics (4 files)
-- [✅] P1 Question Paper
-- [✅] P1 Memorandum
+- [x] P1 Question Paper
+- [x] P1 Memorandum
 - [ ] P2 Question Paper
 - [ ] P2 Memorandum
 
 ### Physical Sciences (4 files)
-- [✅] P1 Question Paper
-- [✅] P1 Memorandum
+- [x] P1 Question Paper
+- [x] P1 Memorandum
 - [ ] P2 Question Paper
 - [ ] P2 Memorandum
 
@@ -32,13 +32,11 @@
 - [ ] P1 Question Paper
 - [ ] P1 Memorandum
 
----
-
-**PHASE 1 PROGRESS: 4/20 (20%) ✅**
+**Phase 1 progress: 4/20 (20%)**
 
 ---
 
-## 📈 PHASE 2: 2022-2023 (Same Subjects)
+## Phase 2: 2022–2023 (same subjects)
 
 ### 2023 November
 - [ ] Mathematics (4 files)
@@ -54,43 +52,33 @@
 - [ ] English (6 files)
 - [ ] Accounting (2 files)
 
----
-
-**PHASE 2 PROGRESS: 0/40 (0%)**
+**Phase 2 progress: 0/40 (0%)**
 
 ---
 
-## 🚀 PHASE 3: COMPLETE DATASET
+## Phase 3: Complete Dataset
 
-*To be tracked after Phase 1 & 2 complete*
-
----
-
-## 📝 NOTES:
-
-**Started:** [Today's Date]
-**Phase 1 Target:** [Date +1 week]
-**Phase 2 Target:** [Date +3 weeks]
-
-**Issues Encountered:**
-- None yet!
-
-**Papers Not Available:**
-- (List any that can't be found)
+To be tracked after Phases 1 and 2 are complete.
 
 ---
 
-## 💡 TIPS:
+## Notes
 
-1. Update this file after each download session
-2. Use `python3 scripts/organize_papers.py check` to verify
-3. Process papers in batches of 4-6
-4. Test app after each batch
+**Started:** [date]
+**Phase 1 target:** [date + 1 week]
+**Phase 2 target:** [date + 3 weeks]
+
+**Papers not available:** (list any that cannot be found)
 
 ---
 
-**Last Updated:** [Date]
-**Total Downloaded:** 4 papers
-**Total Processed:** 4 papers
-**Status:** ✅ Good - Continue!
+## Tips
+
+- Update this file after each download session.
+- Run `python3 scripts/organize_papers.py check` to verify what is present.
+- Process papers in batches of 4–6.
+- Test the app after each batch.
+
+**Total downloaded:** 4 papers
+**Total processed:** 4 papers
 
