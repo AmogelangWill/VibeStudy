@@ -102,7 +102,7 @@ The app is complete and ready to run:
 - ❌ Actual PDF papers (you said leave empty)
 - ❌ Library topics from DBE Curriculum (you said leave blank)
 - ❌ Notes & Videos content (structure is ready)
-- ❌ AI integration (you said forget for now)
+- ❌ Guided-help integration (you said forget for now)
 - ❌ Actual notification delivery (framework is ready)
 
 ### ✨ Extra Features I Added

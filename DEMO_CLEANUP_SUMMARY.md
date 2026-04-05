@@ -44,7 +44,7 @@ The following files can be safely deleted when you're ready:
    - Paper metadata (subject, year, month, paper number)
    - Image URL or file path for question screenshot
    - Image URL or file path for memo screenshot
-   - Memo text (for AI processing)
+   - Memo text (for processing)
    - Marks allocated
 
 2. **Set up image storage**:
@@ -57,10 +57,10 @@ The following files can be safely deleted when you're ready:
    - Implement offline caching
    - Add loading states and error handling
 
-4. **AI Integration**:
-   - Connect to AI API
+4. **Guided Help Integration**:
+   - Connect to help service/API
    - Pass memo text as context
-   - Display AI responses in a dialog or bottom sheet
+   - Display support responses in a dialog or bottom sheet
 
 ## Status
 

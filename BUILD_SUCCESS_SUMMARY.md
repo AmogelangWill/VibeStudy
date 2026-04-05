@@ -39,7 +39,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 - Each question shows:
   - Question pages mapped (e.g., "Question pages: 3, 4")
   - Memo pages mapped (e.g., "Memo pages: 10, 11")
-  - **"Ask AI"** button (placeholder for now)
+  - **"Ask Tutor"** button (placeholder for now)
   - **"View Memo"** button (toggles memo pages display)
 - All page mappings come from the manifests you helped create (based on your 30-minute manual mapping!)
 
@@ -57,7 +57,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 
 ### Code Added:
 - `PaperModels.kt` - Data classes for manifest (PaperManifest, QuestionEntry, etc.)
-- `PaperViewScreen.kt` - UI to display questions with Ask AI / View Memo
+- `PaperViewScreen.kt` - UI to display questions with Ask Tutor / View Memo
 - Updated `Screen.kt` - Added PaperView route
 - Updated `VibeStudyNavigation.kt` - Wired PaperView route
 - Updated `HomeScreen.kt` - Added quick test buttons
@@ -109,14 +109,14 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 
 ---
 
-### Phase 4: AI Integration (Ask AI Button)
-**Goal:** Make "Ask AI" functional
+### Phase 4: Guided Help Integration (Ask Tutor Button)
+**Goal:** Make "Ask Tutor" functional
 
 **What I'll wire up:**
 - Extract memo text for the question
-- Call a free AI API (HuggingFace Inference, Ollama local, or similar)
+- Connect to a support service or curated explanation backend
 - Prompt: "Using this memo as reference, help explain: [question text]"
-- Display AI response in a bottom sheet
+- Display help response in a bottom sheet
 
 **Time:** ~1 hour
 
@@ -135,7 +135,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 | PDF assets bundled | ✅ DONE (4 PDFs in app) |
 | Page images | ⏳ Placeholders (Phase 1) |
 | Auto OCR mapping | ⏳ Phase 2 |
-| Ask AI functional | ⏳ Phase 4 |
+| Ask Tutor functional | ⏳ Phase 4 |
 
 ---
 

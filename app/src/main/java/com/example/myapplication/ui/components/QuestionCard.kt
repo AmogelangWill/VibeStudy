@@ -20,7 +20,7 @@ import com.example.myapplication.model.Question
 @Composable
 fun QuestionCard(
     question: Question,
-    onAskAi: (Question) -> Unit,
+    onAskTutor: (Question) -> Unit,
     modifier: Modifier = Modifier
 ) {
     var showMemo by remember { mutableStateOf(false) }
@@ -54,13 +54,13 @@ fun QuestionCard(
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Button(
-                    onClick = { onAskAi(question) },
+                    onClick = { onAskTutor(question) },
                     modifier = Modifier
                         .weight(1f)
                         .height(48.dp),
                     colors = ButtonDefaults.buttonColors()
                 ) {
-                    Text(text = "Ask AI")
+                    Text(text = "Ask Tutor")
                 }
 
                 Button(

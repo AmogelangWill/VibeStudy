@@ -37,7 +37,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 │  │ b) Verify your answer         │ │
 │  └───────────────────────────────┘ │
 │  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   View Memo     │ │
+│  │ Ask Tutor   │   View Memo     │ │
 │  └─────────────┴─────────────────┘ │
 │                                     │
 │  ┌───────────────────────────────┐ │
@@ -45,7 +45,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 │  │ ...                           │ │
 │  └───────────────────────────────┘ │
 │  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   View Memo     │ │
+│  │ Ask Tutor   │   View Memo     │ │
 │  └─────────────┴─────────────────┘ │
 │                                     │
 │  ┌───────────────────────────────┐ │
@@ -53,7 +53,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 │  │ ...                           │ │
 │  └───────────────────────────────┘ │
 │  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   View Memo     │ │
+│  │ Ask Tutor   │   View Memo     │ │
 │  └─────────────┴─────────────────┘ │
 └─────────────────────────────────────┘
 ```
@@ -67,7 +67,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 │  │ Sample question text...       │ │
 │  └───────────────────────────────┘ │
 │  ┌─────────────┬─────────────────┐ │
-│  │   Ask AI    │   Hide Memo     │ │  <- Button text changes
+│  │ Ask Tutor   │   Hide Memo     │ │  <- Button text changes
 │  └─────────────┴─────────────────┘ │
 │  ┌───────────────────────────────┐ │
 │  │ MEMORANDUM - QUESTION 1       │ │  <- Memo appears
@@ -98,7 +98,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 ✅ **Scroll**: Swipe up/down to see all 3 questions
 ✅ **Toggle Memo**: Tap "View Memo" to show, "Hide Memo" to hide
 ✅ **Independent Cards**: Each question's memo toggles independently
-✅ **Ask AI Button**: Currently a placeholder (shows print in console)
+✅ **Ask Tutor Button**: Currently a placeholder (shows print in console)
 
 ## Testing Checklist
 
@@ -115,7 +115,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 ## Current Limitations (By Design)
 
 🔹 Questions are placeholder boxes with text (not actual paper images)
-🔹 "Ask AI" button doesn't do anything yet
+🔹 "Ask Tutor" button doesn't do anything yet
 🔹 Only 3 sample questions shown
 🔹 No actual PDF or image loading
 
@@ -125,7 +125,7 @@ Once you verify this works:
 1. **Prepare real screenshots** of paper questions and memos
 2. **Decide on storage**: Local files vs. cloud URLs
 3. **Implement image loading** with Coil or similar
-4. **Add AI integration** for the "Ask AI" feature
+4. **Add guided-help integration** for the "Ask Tutor" feature
 5. **Create a data model** for real papers with metadata
 
 ---

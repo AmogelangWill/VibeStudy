@@ -112,7 +112,7 @@ Home
 - See actual PDF pages as images
 - Each question displayed separately
 - View Memo button shows actual memo pages
-- Ask AI button (placeholder)
+- Ask Tutor button (placeholder)
 
 ### ✅ Study Schedule
 - Add tasks with conflict detection

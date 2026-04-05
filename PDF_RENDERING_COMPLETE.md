@@ -85,7 +85,7 @@
 
 ## What's Still TODO
 
-⏳ Ask AI integration (button is placeholder)
+⏳ Ask Tutor integration (button is placeholder)
 ⏳ Add more papers (currently only Nov 2024 P1 for Math & Physics)
 
 ## Performance Notes
