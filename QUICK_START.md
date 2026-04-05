@@ -1,4 +1,4 @@
-# ✅ RESOURCES SUCCESSFULLY COPIED! - Icon Integration Complete
+#  RESOURCES SUCCESSFULLY COPIED! - Icon Integration Complete
 
 > **Status:** All 21 resource files have been successfully copied to `app/src/main/res/drawable/`
 > 
@@ -6,7 +6,7 @@
 
 ---
 
-## ⚡ ORIGINAL INSTRUCTIONS (COMPLETED)
+##  ORIGINAL INSTRUCTIONS (COMPLETED)
 
 ### Method 1: Double-Click (Easiest!)
 1. Navigate to: `/home/kali/Desktop/VibeStudy_Project/`
@@ -29,7 +29,7 @@ Rename them as you copy (see mapping below).
 
 ---
 
-## 📋 File Mapping (for Manual Copy)
+##  File Mapping (for Manual Copy)
 
 ### Subject Icons Folder → drawable/
 - `Accounting.png` → `ic_subject_accounting.png`
@@ -60,7 +60,7 @@ Rename them as you copy (see mapping below).
 
 ---
 
-## 🔨 Build Your App
+##  Build Your App
 
 After copying the resources, rebuild:
 
@@ -74,7 +74,7 @@ cd /home/kali/Desktop/VibeStudy_Project
 
 ---
 
-## ✅ What's Already Done
+##  What's Already Done
 
 All the code changes are complete! Here's what was implemented:
 
@@ -82,43 +82,43 @@ All the code changes are complete! Here's what was implemented:
 ### 2. **Enhanced Buttons** - RectangularButton & SquareButton now support icons
 ### 3. **Updated AppBar** - Shows your logo and hamburger icon
 ### 4. **Updated Screens**:
-   - ✅ HomeScreen - Grade buttons with icons
-   - ✅ SubjectListScreen - Subject buttons with icons
-   - ✅ LibrarySubjectsScreen - Subject buttons with icons
+   -  HomeScreen - Grade buttons with icons
+   -  SubjectListScreen - Subject buttons with icons
+   -  LibrarySubjectsScreen - Subject buttons with icons
 
 ---
 
-## 🎯 Expected Result
+##  Expected Result
 
 Once you copy the files and rebuild:
 
 ```
 ┌─────────────────────────────────────┐
-│  ☰    [YOUR LOGO HERE]         │  ← Header with logo
+│      [YOUR LOGO HERE]         │  ← Header with logo
 ├─────────────────────────────────────┤
 │                                     │
 │  ┌─────────┐  ┌─────────┐         │
-│  │  📚      │  │  📚      │         │
+│  │        │  │        │         │
 │  │Grade 10 │  │Grade 11 │         │
 │  └─────────┘  └─────────┘         │
 │                                     │
 │  ┌─────────┐  ┌─────────┐         │
-│  │  📚      │  │  📅      │         │
+│  │        │  │        │         │
 │  │Grade 12 │  │Schedule │         │
 │  └─────────┘  └─────────┘         │
 │                                     │
 │  ┌─────────┐                       │
-│  │  📖      │                       │
+│  │        │                       │
 │  │Library  │                       │
 │  └─────────┘                       │
 └─────────────────────────────────────┘
 ```
 
-Each subject will show its unique icon! 🎨
+Each subject will show its unique icon! 
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 ### "Unresolved reference" errors?
 → Resources not copied yet. Run the copy script.
@@ -139,28 +139,28 @@ chmod +x RUN_ME_TO_COPY_RESOURCES.sh
 
 ---
 
-## 📁 Project Files Created
+##  Project Files Created
 
-- ✅ `copy_resources_final.py` - Complete Python copy script
-- ✅ `RUN_ME_TO_COPY_RESOURCES.sh` - One-click launcher
-- ✅ `ICON_INTEGRATION_SUMMARY.md` - Detailed implementation summary
-- ✅ `RESOURCE_INTEGRATION_GUIDE.md` - Step-by-step guide
-- ✅ This Quick Start Guide
+-  `copy_resources_final.py` - Complete Python copy script
+-  `RUN_ME_TO_COPY_RESOURCES.sh` - One-click launcher
+-  `ICON_INTEGRATION_SUMMARY.md` - Detailed implementation summary
+-  `RESOURCE_INTEGRATION_GUIDE.md` - Step-by-step guide
+-  This Quick Start Guide
 
 ---
 
-## 🎓 Summary
+##  Summary
 
 **What you need to do:**
 1. Run the copy script (one of the 3 methods above)
 2. Rebuild the project
 3. Run your app
 
-**That's it!** Your icons and logos will be integrated! 🎉
+**That's it!** Your icons and logos will be integrated! 
 
 ---
 
-## 📞 Need Help?
+##  Need Help?
 
 Check these files for more details:
 - `ICON_INTEGRATION_SUMMARY.md` - Full implementation details
@@ -169,5 +169,5 @@ Check these files for more details:
 
 ---
 
-**Ready? Run one of the copy methods above and enjoy your new icons! 🚀**
+**Ready? Run one of the copy methods above and enjoy your new icons! **
 

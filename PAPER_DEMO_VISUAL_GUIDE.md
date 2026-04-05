@@ -20,7 +20,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 
 ```
 ┌─────────────────────────────────────┐
-│  ☰  [LOGO]                          │  <- App Bar
+│    [LOGO]                          │  <- App Bar
 ├─────────────────────────────────────┤
 │  Mathematics Paper 1 - 2023         │  <- Paper Title
 │                                     │
@@ -78,7 +78,7 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 │  │ 2x = 10                       │ │
 │  │ x = 5                         │ │
 │  │                               │ │
-│  │ Verification: 2(5)+5=10+5=15✓ │ │
+│  │ Verification: 2(5)+5=10+5=15 │ │
 │  │                               │ │
 │  │ Marks: [5]                    │ │
 │  └───────────────────────────────┘ │
@@ -95,10 +95,10 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 
 ## Interactive Features
 
-✅ **Scroll**: Swipe up/down to see all 3 questions
-✅ **Toggle Memo**: Tap "View Memo" to show, "Hide Memo" to hide
-✅ **Independent Cards**: Each question's memo toggles independently
-✅ **Ask Tutor Button**: Currently a placeholder (shows print in console)
+ **Scroll**: Swipe up/down to see all 3 questions
+ **Toggle Memo**: Tap "View Memo" to show, "Hide Memo" to hide
+ **Independent Cards**: Each question's memo toggles independently
+ **Ask Tutor Button**: Currently a placeholder (shows print in console)
 
 ## Testing Checklist
 
@@ -114,10 +114,10 @@ Scroll down in the drawer and tap the **"Paper Demo"** item
 
 ## Current Limitations (By Design)
 
-🔹 Questions are placeholder boxes with text (not actual paper images)
-🔹 "Ask Tutor" button doesn't do anything yet
-🔹 Only 3 sample questions shown
-🔹 No actual PDF or image loading
+ Questions are placeholder boxes with text (not actual paper images)
+ "Ask Tutor" button doesn't do anything yet
+ Only 3 sample questions shown
+ No actual PDF or image loading
 
 ## Next Steps After Testing
 

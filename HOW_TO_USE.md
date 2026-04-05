@@ -1,13 +1,13 @@
-# 🚀 HOW TO USE - PAST PAPERS DOWNLOAD & PROCESSING SYSTEM
+#  HOW TO USE - PAST PAPERS DOWNLOAD & PROCESSING SYSTEM
 
-## ✅ **YOU HAVE 2 TOOLS:**
+##  **YOU HAVE 2 TOOLS:**
 
 ### **1. DOWNLOAD_GUIDE.md** - Manual download instructions
 ### **2. Scripts to organize and process papers**
 
 ---
 
-## 📋 **STEP-BY-STEP INSTRUCTIONS:**
+##  **STEP-BY-STEP INSTRUCTIONS:**
 
 ### **STEP 1: Download Your First Papers (5 minutes)**
 
@@ -35,8 +35,8 @@ python3 scripts/organize_papers.py rename
 ```
 
 **This will:**
-- ✅ Automatically rename files to the correct format
-- ✅ Example: `gr12-math-nov2024-p1.pdf` → `Grade_12_Mathematics_2024_November_P1.pdf`
+-  Automatically rename files to the correct format
+-  Example: `gr12-math-nov2024-p1.pdf` → `Grade_12_Mathematics_2024_November_P1.pdf`
 
 ---
 
@@ -61,11 +61,11 @@ python scripts/process_all_pdfs.py
 ```
 
 **This will:**
-- ✅ Convert PDFs to images (one image per page)
-- ✅ Detect questions automatically
-- ✅ Split pages where multiple questions exist
-- ✅ Create JSON manifests
-- ✅ Put everything in `app/src/main/assets/`
+-  Convert PDFs to images (one image per page)
+-  Detect questions automatically
+-  Split pages where multiple questions exist
+-  Create JSON manifests
+-  Put everything in `app/src/main/assets/`
 
 ---
 
@@ -79,7 +79,7 @@ python scripts/process_all_pdfs.py
 
 ---
 
-## 🔄 **REPEAT THE CYCLE:**
+##  **REPEAT THE CYCLE:**
 
 1. Download more papers
 2. Run `organize_papers.py rename`
@@ -89,7 +89,7 @@ python scripts/process_all_pdfs.py
 
 ---
 
-## 📊 **PROGRESS TRACKING:**
+##  **PROGRESS TRACKING:**
 
 ### **Check what's missing from Phase 1:**
 
@@ -101,7 +101,7 @@ This shows which Phase 1 papers (2024 November) you still need to download.
 
 ---
 
-## 🎯 **RECOMMENDED WORKFLOW:**
+##  **RECOMMENDED WORKFLOW:**
 
 ### **Week 1: Core Subjects (Phase 1)**
 **Target: 20 papers** (2024 November only)
@@ -140,7 +140,7 @@ This shows which Phase 1 papers (2024 November) you still need to download.
 
 ---
 
-## 💡 **PRO TIPS:**
+##  **PRO TIPS:**
 
 ### **1. Batch Downloads:**
 Download all papers for ONE subject and ONE year at a time.
@@ -157,7 +157,7 @@ Check the processed images in `app/src/main/assets/` to make sure they look good
 
 ---
 
-## 🐛 **TROUBLESHOOTING:**
+##  **TROUBLESHOOTING:**
 
 ### **Problem: Script doesn't rename a file**
 **Solution:** The filename might be too different. Manually rename it to match the format:
@@ -177,16 +177,16 @@ Grade_12_{Subject}_{Year}_{Period}_{Paper}_MEMO.pdf
 
 ---
 
-## 📈 **TRACKING YOUR PROGRESS:**
+##  **TRACKING YOUR PROGRESS:**
 
 Create a simple text file `progress.txt`:
 
 ```
 PHASE 1 (Core 2024 November):
-[✅] Mathematics 2024 Nov P1 + MEMO
-[✅] Mathematics 2024 Nov P2 + MEMO
-[✅] Physical Sciences 2024 Nov P1 + MEMO
-[✅] Physical Sciences 2024 Nov P2 + MEMO
+[] Mathematics 2024 Nov P1 + MEMO
+[] Mathematics 2024 Nov P2 + MEMO
+[] Physical Sciences 2024 Nov P1 + MEMO
+[] Physical Sciences 2024 Nov P2 + MEMO
 [ ] Life Sciences 2024 Nov P1 + MEMO
 [ ] Life Sciences 2024 Nov P2 + MEMO
 ...
@@ -194,7 +194,7 @@ PHASE 1 (Core 2024 November):
 
 ---
 
-## ❓ **QUESTIONS?**
+##  **QUESTIONS?**
 
 ### **Q: Do I really need to download 1,760 papers?**
 **A:** NO! Start with Phase 1 (20 papers). That's enough to launch the app and get user feedback.
@@ -210,23 +210,23 @@ PHASE 1 (Core 2024 November):
 
 ---
 
-## 🎯 **YOUR GOAL FOR TODAY:**
+##  **YOUR GOAL FOR TODAY:**
 
-1. ✅ Download 4 papers (Maths + Physics 2024 Nov P1 + Memos)
-2. ✅ Run organize script
-3. ✅ Run process script
-4. ✅ See the processed images
-5. ✅ Build app
-6. ✅ Test on phone
+1.  Download 4 papers (Maths + Physics 2024 Nov P1 + Memos)
+2.  Run organize script
+3.  Run process script
+4.  See the processed images
+5.  Build app
+6.  Test on phone
 
 **Time needed: 30-45 minutes**
 
 ---
 
-## 🚀 **START NOW:**
+##  **START NOW:**
 
 Open your browser and go to:
 https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
 
-**Download your first 4 papers and let's GO!** 🔥
+**Download your first 4 papers and let's GO!** 
 

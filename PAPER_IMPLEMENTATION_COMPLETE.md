@@ -54,7 +54,7 @@ The `PaperViewScreen.kt` was already implemented with:
 
 ## Current Status
 
-✅ **WORKING**:
+ **WORKING**:
 - Navigation from Paper List to Paper View
 - Manifest loading
 - Question display with page numbers
@@ -108,9 +108,9 @@ To make it fully functional with actual PDF page images, we would need to:
 
 ## Build Status
 
-✅ Build successful
-✅ No compilation errors
-✅ All assets copied
-✅ Navigation configured
-✅ Ready to test in the emulator/device
+ Build successful
+ No compilation errors
+ All assets copied
+ Navigation configured
+ Ready to test in the emulator/device
 

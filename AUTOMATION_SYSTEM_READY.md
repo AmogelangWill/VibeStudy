@@ -1,14 +1,14 @@
-# ✅ DOWNLOAD & AUTOMATION SYSTEM - READY TO USE!
+#  DOWNLOAD & AUTOMATION SYSTEM - READY TO USE!
 
-## 🎉 **WHAT I BUILT FOR YOU:**
+##  **WHAT I BUILT FOR YOU:**
 
-### **1. DOWNLOAD_GUIDE.md** 📥
+### **1. DOWNLOAD_GUIDE.md** 
 - Complete list of all 5 FREE download sources
 - Folder structure and naming conventions
 - 3-phase download strategy (Phase 1: 20 papers → Phase 3: 1,760 papers)
 - Time estimates and progress tracking
 
-### **2. organize_papers.py** 🤖
+### **2. organize_papers.py** 
 - Automatically renames downloaded PDFs to standard format
 - Lists all papers organized by subject
 - Checks for missing files
@@ -19,13 +19,13 @@
   python3 scripts/organize_papers.py check   # Check missing
   ```
 
-### **3. HOW_TO_USE.md** 📖
+### **3. HOW_TO_USE.md** 
 - Step-by-step instructions
 - Daily schedule for Phase 1
 - Troubleshooting guide
 - Progress tracking templates
 
-### **4. process_all_pdfs.py** (Already exists!) ⚙️
+### **4. process_all_pdfs.py** (Already exists!) ️
 - Converts PDFs to images
 - Detects questions automatically
 - Splits pages intelligently
@@ -33,7 +33,7 @@
 
 ---
 
-## 🎯 **CORRECTED CALCULATIONS:**
+##  **CORRECTED CALCULATIONS:**
 
 **Grade 12 Papers:**
 - 1 Grade × 11 subjects × 10 years × 4 periods × 2 papers × 2 (QP+Memo)
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 **HOW TO USE (QUICK START):**
+##  **HOW TO USE (QUICK START):**
 
 ### **TODAY - Get Started in 30 Minutes:**
 
@@ -72,7 +72,7 @@
 
 ---
 
-## 📋 **3-PHASE DOWNLOAD STRATEGY:**
+##  **3-PHASE DOWNLOAD STRATEGY:**
 
 ### **Phase 1: Core 2024 November (START HERE!)**
 **Target: 20 papers | Time: 2-3 hours**
@@ -96,7 +96,7 @@ All subjects (11), all years (2015-2024), all periods.
 
 ---
 
-## 🌐 **DOWNLOAD SOURCES (ALL FREE!):**
+##  **DOWNLOAD SOURCES (ALL FREE!):**
 
 1. **education.gov.za** - Official DBE (BEST for Grade 12)
 2. **testpapers.co.za** - Largest collection
@@ -106,7 +106,7 @@ All subjects (11), all years (2015-2024), all periods.
 
 ---
 
-## 📁 **FILE NAMING (Automatic!):**
+##  **FILE NAMING (Automatic!):**
 
 The script auto-converts:
 - `gr12-math-nov2024-p1.pdf` 
@@ -116,20 +116,20 @@ You don't need to rename manually!
 
 ---
 
-## 🤖 **AUTOMATION STATUS:**
+##  **AUTOMATION STATUS:**
 
-### ✅ **FULLY AUTOMATED:**
+###  **FULLY AUTOMATED:**
 - PDF to images conversion
 - Question detection (OCR-based)
 - Page splitting
 - JSON manifest generation
 - File organization
 
-### ⚠️ **SEMI-AUTOMATED:**
+### ️ **SEMI-AUTOMATED:**
 - Downloading (you click and save, script organizes)
 - Quality check (script flags issues, you review)
 
-### ❌ **NOT AUTOMATED:**
+###  **NOT AUTOMATED:**
 - Initial download (requires clicking on websites)
 - Final quality verification
 
@@ -155,13 +155,13 @@ You don't need to rename manually!
 
 ---
 
-## 💡 **THE MAPPING PROBLEM - SOLVED!**
+##  **THE MAPPING PROBLEM - SOLVED!**
 
 ### **You said:**
 > "Mapping 5,804 papers manually = 30 days non-stop = IMPOSSIBLE"
 
 ### **Reality:**
-1. **NO manual mapping needed!** ✅
+1. **NO manual mapping needed!** 
 2. The script uses OCR to detect "QUESTION" markers automatically
 3. It splits pages based on whitespace analysis
 4. For the 4 papers you have, it already worked!
@@ -170,7 +170,7 @@ You don't need to rename manually!
 
 ---
 
-## 📊 **WHAT YOU ALREADY HAVE:**
+##  **WHAT YOU ALREADY HAVE:**
 
 You have **4 papers** in DATABASE folder:
 - Mathematics P1 Nov 2024 Eng.pdf
@@ -183,7 +183,7 @@ Check: `app/src/main/assets/` to see the output.
 
 ---
 
-## 🎯 **YOUR NEXT STEPS:**
+##  **YOUR NEXT STEPS:**
 
 ### **TODAY:**
 1. Read `HOW_TO_USE.md`
@@ -203,7 +203,7 @@ Build to complete dataset over time
 
 ---
 
-## ❓ **YOUR QUESTIONS ANSWERED:**
+##  **YOUR QUESTIONS ANSWERED:**
 
 ### **Q: Can this be fully automated?**
 **A:** Downloading requires manual clicking (websites have anti-bot protection), but EVERYTHING ELSE is automated!
@@ -219,14 +219,14 @@ Build to complete dataset over time
 
 ---
 
-## 🚀 **BOTTOM LINE:**
+##  **BOTTOM LINE:**
 
 ### **YOU HAVE:**
-- ✅ Complete download strategy
-- ✅ Auto-organization script  
-- ✅ Auto-processing script
-- ✅ Step-by-step guide
-- ✅ 4 test papers ready to go
+-  Complete download strategy
+-  Auto-organization script  
+-  Auto-processing script
+-  Step-by-step guide
+-  4 test papers ready to go
 
 ### **YOU NEED TO DO:**
 1. Download papers from the websites (manual clicking)
@@ -240,7 +240,7 @@ Build to complete dataset over time
 
 ---
 
-## 📝 **FILES CREATED:**
+##  **FILES CREATED:**
 
 1. `DOWNLOAD_GUIDE.md` - Where and how to download
 2. `HOW_TO_USE.md` - Complete usage instructions  
@@ -249,7 +249,7 @@ Build to complete dataset over time
 
 ---
 
-## 🎉 **YOU'RE READY!**
+##  **YOU'RE READY!**
 
 Open `HOW_TO_USE.md` and follow the steps.
 
@@ -257,5 +257,5 @@ Open `HOW_TO_USE.md` and follow the steps.
 
 ---
 
-**LET'S GO! 🔥**
+**LET'S GO! **
 

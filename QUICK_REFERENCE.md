@@ -1,6 +1,6 @@
-# ⚡ QUICK REFERENCE - PAST PAPERS SYSTEM
+#  QUICK REFERENCE - PAST PAPERS SYSTEM
 
-## 🎯 **3 COMMANDS YOU NEED:**
+##  **3 COMMANDS YOU NEED:**
 
 ### **1. Organize Downloaded Papers**
 ```bash
@@ -31,7 +31,7 @@ cd /home/kali/Desktop/VibeStudy_Project
 
 ---
 
-## 📥 **DOWNLOAD SOURCES:**
+##  **DOWNLOAD SOURCES:**
 
 1. **https://www.education.gov.za/** (Official DBE - BEST!)
 2. **https://www.testpapers.co.za/** (Largest collection)
@@ -41,7 +41,7 @@ cd /home/kali/Desktop/VibeStudy_Project
 
 ---
 
-## 📁 **FILE NAMING:**
+##  **FILE NAMING:**
 
 Save downloaded PDFs as anything, script will fix them!
 
@@ -53,7 +53,7 @@ Grade_12_Mathematics_2024_November_P1_MEMO.pdf
 
 ---
 
-## 🎯 **PHASE 1 TARGET (Start Here):**
+##  **PHASE 1 TARGET (Start Here):**
 
 Download these for **2024 November ONLY**:
 
@@ -67,7 +67,7 @@ Download these for **2024 November ONLY**:
 
 ---
 
-## ⚙️ **WORKFLOW:**
+## ️ **WORKFLOW:**
 
 1. Download 4-6 PDFs from websites
 2. Save to `DATABASE/` folder
@@ -79,7 +79,7 @@ Download these for **2024 November ONLY**:
 
 ---
 
-## 🐛 **TROUBLESHOOTING:**
+##  **TROUBLESHOOTING:**
 
 | Problem | Solution |
 |---------|----------|
@@ -90,7 +90,7 @@ Download these for **2024 November ONLY**:
 
 ---
 
-## 📊 **CHECK PROGRESS:**
+##  **CHECK PROGRESS:**
 
 ```bash
 python3 scripts/organize_papers.py list   # Show all files
@@ -99,7 +99,7 @@ python3 scripts/organize_papers.py check  # Check missing
 
 ---
 
-## 💾 **STORAGE:**
+##  **STORAGE:**
 
 - **4 papers:** ~2MB
 - **Phase 1 (20 papers):** ~12MB
@@ -118,18 +118,18 @@ python3 scripts/organize_papers.py check  # Check missing
 
 ---
 
-## 🎯 **GOAL FOR TODAY:**
+##  **GOAL FOR TODAY:**
 
-✅ Download 4-6 more papers  
-✅ Process them  
-✅ Test in app  
-✅ See the results!
+ Download 4-6 more papers  
+ Process them  
+ Test in app  
+ See the results!
 
 **Time needed: 30-45 minutes**
 
 ---
 
-**📖 Full Guide:** Read `HOW_TO_USE.md`  
-**📥 Download Info:** Read `DOWNLOAD_GUIDE.md`  
-**🎉 System Overview:** Read `AUTOMATION_SYSTEM_READY.md`
+** Full Guide:** Read `HOW_TO_USE.md`  
+** Download Info:** Read `DOWNLOAD_GUIDE.md`  
+** System Overview:** Read `AUTOMATION_SYSTEM_READY.md`
 

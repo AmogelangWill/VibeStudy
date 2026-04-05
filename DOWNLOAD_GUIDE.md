@@ -1,6 +1,6 @@
-# 📥 PAST PAPERS DOWNLOAD GUIDE
+#  PAST PAPERS DOWNLOAD GUIDE
 
-## 🎯 TARGET: 1,760 GRADE 12 PAPERS
+##  TARGET: 1,760 GRADE 12 PAPERS
 
 **Calculation:**
 - 1 Grade (12) × 11 subjects × 10 years (2015-2024) × 4 exam periods × 2 papers × 2 (QP+Memo)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 SUBJECTS TO DOWNLOAD:
+##  SUBJECTS TO DOWNLOAD:
 
 1. Mathematics
 2. Physical Sciences
@@ -24,7 +24,7 @@
 
 ---
 
-## 🌐 DOWNLOAD SOURCES (FREE):
+##  DOWNLOAD SOURCES (FREE):
 
 ### 1. **education.gov.za** (OFFICIAL DBE - START HERE!)
 - URL: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
@@ -56,7 +56,7 @@
 
 ---
 
-## 📁 FOLDER STRUCTURE (USE THIS!):
+##  FOLDER STRUCTURE (USE THIS!):
 
 Create this structure in `DATABASE/` folder:
 
@@ -84,7 +84,7 @@ Grade_{GRADE}_{SUBJECT}_{YEAR}_{PERIOD}_{PAPER}_MEMO.pdf
 
 ---
 
-## ⚡ QUICK START STRATEGY (3-PHASE APPROACH):
+##  QUICK START STRATEGY (3-PHASE APPROACH):
 
 ### **PHASE 1: Core Papers (PRIORITY - DO THIS FIRST!)**
 **Target:** 80 papers (2-3 hours work)
@@ -110,7 +110,7 @@ Add remaining subjects and years (2015-2021).
 
 ---
 
-## 🤖 SEMI-AUTOMATED HELPER SCRIPT:
+##  SEMI-AUTOMATED HELPER SCRIPT:
 
 I'll create a Python script that:
 1. Monitors your `DATABASE/` folder
@@ -120,7 +120,7 @@ I'll create a Python script that:
 
 ---
 
-## 📊 PROGRESS TRACKER:
+##  PROGRESS TRACKER:
 
 Create a file `download_progress.txt`:
 
@@ -151,7 +151,7 @@ Create a file `download_progress.txt`:
 
 ---
 
-## 💡 PRO TIPS:
+##  PRO TIPS:
 
 1. **Use browser's download manager** - Download multiple files at once
 2. **Create bookmarks** for each source's Grade 12 page
@@ -161,7 +161,7 @@ Create a file `download_progress.txt`:
 
 ---
 
-## 🚀 START NOW:
+##  START NOW:
 
 1. Go to: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/NSCPastExaminationpapers.aspx
 2. Download **Mathematics 2024 November P1 + MEMO**
@@ -171,7 +171,7 @@ Create a file `download_progress.txt`:
 
 ---
 
-## ❓ NEED HELP?
+##  NEED HELP?
 
 If a source doesn't work or you can't find a paper:
 - Try the next source in the list

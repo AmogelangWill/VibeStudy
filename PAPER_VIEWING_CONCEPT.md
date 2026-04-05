@@ -1,6 +1,6 @@
 # Paper Viewing Concept - Approved Design
 
-## Your Vision (Validated ✅)
+## Your Vision (Validated )
 
 ### User Flow:
 1. User navigates to a specific paper (e.g., Mathematics Grade 12, 2023, June, Paper 1)
@@ -12,11 +12,11 @@
 5. Each question's memo toggles independently
 
 ### Key Design Principles:
-- ✅ **Full-width display** - Questions and memos fill the screen width
-- ✅ **Screenshot-based** - Not text extraction, actual paper images
-- ✅ **Independent toggles** - Each question's memo works separately
-- ✅ **Clean spacing** - Each card is visually separated
-- ✅ **Equal-width buttons** - Ask Tutor and View Memo are balanced
+-  **Full-width display** - Questions and memos fill the screen width
+-  **Screenshot-based** - Not text extraction, actual paper images
+-  **Independent toggles** - Each question's memo works separately
+-  **Clean spacing** - Each card is visually separated
+-  **Equal-width buttons** - Ask Tutor and View Memo are balanced
 
 ## Technical Implementation (Concept)
 
@@ -104,7 +104,7 @@ Your app will stand out because:
 
 ---
 
-**Status**: Concept approved ✅
+**Status**: Concept approved 
 **Prototype**: Validated and removed
 **Ready for**: Real implementation with actual paper data
 

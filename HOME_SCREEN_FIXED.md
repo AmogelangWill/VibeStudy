@@ -4,7 +4,7 @@
 Papers "Math P1 Nov 2024" and "Phys Sci P1 Nov 2024" were showing on the home screen.
 
 ## Solution
-✅ **REMOVED** - Deleted the paper buttons from HomeScreen.kt
+ **REMOVED** - Deleted the paper buttons from HomeScreen.kt
 
 ## Home Screen Now Shows ONLY:
 
@@ -36,9 +36,9 @@ Home → Grade 12 → Physical Sciences → 2024 → November → Paper 1
 ```
 
 ## Build Status
-✅ **BUILD SUCCESSFUL**
-✅ **No errors**
-✅ **Ready to run**
+ **BUILD SUCCESSFUL**
+ **No errors**
+ **Ready to run**
 
 ---
 

@@ -3,7 +3,7 @@
 ## Overview
 Vibe Study is an Android app designed for South African students (Grades 10-12) to study using past exam papers, access a library of notes, and manage their study schedules.
 
-## Features Implemented ✅
+## Features Implemented 
 
 ### 1. **Home Screen**
 - 4 square buttons displayed in a grid layout:
@@ -184,6 +184,6 @@ app/src/main/java/com/example/myapplication/
 
 ---
 
-**Implementation Status**: ✅ Complete (Phase 1)
+**Implementation Status**:  Complete (Phase 1)
 All core features from the ReadMe.md have been implemented as specified.
 

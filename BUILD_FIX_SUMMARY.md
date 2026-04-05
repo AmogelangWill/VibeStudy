@@ -22,9 +22,9 @@ Updated `app/build.gradle.kts`:
 
 ## Current Status
 
-✅ **BUILD SUCCESSFUL**
-✅ **No compilation errors**
-✅ **Play/Debug buttons should now work**
+ **BUILD SUCCESSFUL**
+ **No compilation errors**
+ **Play/Debug buttons should now work**
 
 ## What You Can Now Do
 
@@ -44,11 +44,11 @@ Updated `app/build.gradle.kts`:
 
 ## What's Working
 
-✅ Complete navigation flow from home to viewing papers
-✅ Manifest loading from JSON files
-✅ Question display with page numbers
-✅ Memo toggle functionality
-✅ All 4 PDFs loaded in assets
+ Complete navigation flow from home to viewing papers
+ Manifest loading from JSON files
+ Question display with page numbers
+ Memo toggle functionality
+ All 4 PDFs loaded in assets
 
 ## What's Still Placeholder (As Intended)
 
@@ -80,7 +80,7 @@ To display actual PDF page images instead of placeholders:
 ./gradlew assembleDebug
 ```
 
-**Result**: BUILD SUCCESSFUL ✅
+**Result**: BUILD SUCCESSFUL 
 
 Your IDE should now allow you to run the app!
 

@@ -1,6 +1,6 @@
 # BUILD SUCCESS - Papers Ready to View
 
-## ✅ FIXED: Build Now Works
+##  FIXED: Build Now Works
 
 **The Problem:**
 - Kotlin serialization plugin wasn't loading because version wasn't specified in build.gradle.kts
@@ -12,14 +12,14 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 ```
 
 **Build Status:**
-- ✅ Clean build successful
-- ✅ APK created: `app/build/outputs/apk/debug/app-debug.apk`
-- ✅ No compilation errors
-- ✅ All new paper viewing code ready
+-  Clean build successful
+-  APK created: `app/build/outputs/apk/debug/app-debug.apk`
+-  No compilation errors
+-  All new paper viewing code ready
 
 ---
 
-## 🎯 What You Can Do NOW
+##  What You Can Do NOW
 
 ### In Android Studio:
 1. **Click the Sync button** (top right, looks like elephant with down arrow) or File > Sync Project with Gradle Files
@@ -45,7 +45,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 
 ---
 
-## 📁 What's Inside the App Now
+##  What's Inside the App Now
 
 ### Assets Bundled:
 - `math_p1_nov_2024.pdf` (Question paper)
@@ -65,7 +65,7 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 
 ---
 
-## 🚀 Next Steps (When You're Ready)
+##  Next Steps (When You're Ready)
 
 ### Phase 1: PDF to Images (Automated)
 **Goal:** Replace "Question pages: 3, 4" placeholders with actual page images
@@ -122,24 +122,24 @@ id("org.jetbrains.kotlin.plugin.serialization") version "2.0.21"
 
 ---
 
-## 📊 Current State Summary
+##  Current State Summary
 
 | Feature | Status |
 |---------|--------|
-| Build compiles | ✅ DONE |
-| Run/Debug enabled | ✅ FIXED |
-| Paper manifests created | ✅ DONE (2 papers, 22 questions total) |
-| Navigation to PaperView | ✅ DONE |
-| Question list display | ✅ DONE |
-| View Memo toggle | ✅ DONE |
-| PDF assets bundled | ✅ DONE (4 PDFs in app) |
+| Build compiles |  DONE |
+| Run/Debug enabled |  FIXED |
+| Paper manifests created |  DONE (2 papers, 22 questions total) |
+| Navigation to PaperView |  DONE |
+| Question list display |  DONE |
+| View Memo toggle |  DONE |
+| PDF assets bundled |  DONE (4 PDFs in app) |
 | Page images | ⏳ Placeholders (Phase 1) |
 | Auto OCR mapping | ⏳ Phase 2 |
 | Ask Tutor functional | ⏳ Phase 4 |
 
 ---
 
-## 🐛 If Run/Debug Still Gray
+##  If Run/Debug Still Gray
 
 Try in order:
 1. **Sync Project with Gradle** (toolbar button or File menu)
@@ -149,7 +149,7 @@ Try in order:
 
 ---
 
-## 📝 Commands You Can Run
+##  Commands You Can Run
 
 ### Build APK:
 ```bash
@@ -168,7 +168,7 @@ Try in order:
 
 ---
 
-**You're ready to run the app and see your papers live! 🎉**
+**You're ready to run the app and see your papers live! **
 
 Let me know:
 - If Run/Debug works now

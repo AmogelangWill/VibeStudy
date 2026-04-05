@@ -22,13 +22,13 @@ The system uses two methods to split pages with multiple questions:
 ### 2. Question Cropping Results
 
 **Mathematics P1 November 2024:**
-- ✅ Q1 & Q2 on Page 3 → Successfully cropped into separate images
-- ✅ Q3 & Q4 on Page 4 → Successfully cropped  
-- ✅ Q5 on Page 5 → Single image (multi-part question)
-- ✅ Q6 on Page 6 → Single image (multi-part question)
-- ✅ Q7 & Q8 on Page 7 → Successfully cropped
-- ✅ Q9 & Q10 on Page 8 → Successfully cropped
-- ✅ Q11 & Q12 on Page 9 → Successfully cropped
+-  Q1 & Q2 on Page 3 → Successfully cropped into separate images
+-  Q3 & Q4 on Page 4 → Successfully cropped  
+-  Q5 on Page 5 → Single image (multi-part question)
+-  Q6 on Page 6 → Single image (multi-part question)
+-  Q7 & Q8 on Page 7 → Successfully cropped
+-  Q9 & Q10 on Page 8 → Successfully cropped
+-  Q11 & Q12 on Page 9 → Successfully cropped
 
 **Result:** Each question now displays ONLY its content, no duplicates!
 
@@ -161,12 +161,12 @@ python scripts/process_all_pdfs.py
 
 ## Benefits
 
-✅ **No Duplicates:** Each question shows only its content  
-✅ **Automatic:** Most pages are split automatically  
-✅ **Accurate:** Manual mapping ensures 100% correctness  
-✅ **High Quality:** 2x resolution for crisp text  
-✅ **Scalable:** Easy to add new papers  
-✅ **Organized:** Perfect grouping of multi-page questions and memos
+ **No Duplicates:** Each question shows only its content  
+ **Automatic:** Most pages are split automatically  
+ **Accurate:** Manual mapping ensures 100% correctness  
+ **High Quality:** 2x resolution for crisp text  
+ **Scalable:** Easy to add new papers  
+ **Organized:** Perfect grouping of multi-page questions and memos
 
 ## Dependencies
 
